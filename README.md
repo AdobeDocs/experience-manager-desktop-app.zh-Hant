@@ -1,25 +1,24 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '321'
-ht-degree: 17%
+source-wordcount: '325'
+ht-degree: 20%
 
 ---
-# 關於[!DNL Adobe Experience Manager]案頭應用程式
+# 關於 [!DNL Adobe Experience Manager] 案頭應用程式
 
-[!DNL Adobe Experience Manager]案頭應用程式會將[!DNL Experience Manager] DAM儲存庫連接至您的案頭，讓您更快速地存取資源並簡化工作流程。 如此減少的工作量，可提高使用者的效率，讓他們在案頭工作流程中處理數位資產。 使用應用程式，您可輕鬆在本機案頭上存取[!DNL Experience Manager Assets]中的資產，並可用於任何案頭應用程式。 您可以在自己選擇的桌面應用程式中開啟和編輯資產。本端編輯可在[!DNL Experience Manager] DAM儲存庫中使用。 從任何來源添加到儲存庫的任何新資產也可以在案頭上使用。
+此 [!DNL Adobe Experience Manager] 案頭應用程式連線 [!DNL Experience Manager] DAM存放庫至您的案頭，提供更快的資源存取速度並簡化工作流程。 這種省力的做法，提高了在案頭工作流程中使用數位資產的使用者的效率。 使用應用程式時，此應用程式內的 [!DNL Experience Manager Assets] 可在您的本機案頭上輕鬆存取，並可用於任何案頭應用程式。 您可以在自己選擇的案頭應用程式中開啟及編輯資產。 本機編輯可在以下位置提供： [!DNL Experience Manager] DAM存放庫。 任何來源新增到存放庫的任何新資產也可在您的案頭上使用。
 
-此類整合可讓組織中的不同角色在[!DNL Experience Manager Assets]集中管理資產。 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。創意使用者也可以存取[!DNL Creative Cloud]案頭上的資產，以及其他原生應用程式。
+透過這種整合方式，組織中的不同角色可在以下位置集中管理資產： [!DNL Experience Manager Assets]. 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。創意使用者也可以在以下位置存取案頭上的資產： [!DNL Creative Cloud] 和其他原生應用程式。
 
-## Contribute to the documentation
+## 協助撰寫說明文件
 
-本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [.NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
+本專案已採用 [Adobe 開放原始碼行為準則](code-of-conduct.md)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/about/policies/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
-**小幅變更**:按一下文章右邊距的「編輯」，開始進行小幅修正或澄清並提交。或者，在此儲存庫中建立一個描述更改的問題。 Adobe使用條款涵蓋此類次要貢獻。
+**微幅變更**：按一下文章右側邊緣的「編輯」 ，開始進行微幅修改或澄清，然後提交。 或者，可在此存放庫中建立一個說明變更的問題。這類次要內容的協助撰寫涵蓋在 Adobe 使用條款中。
 
-**主要變更**:按一下文章中的「編輯」、Contribute，並建立提取請求或建立期刊。無論如何，檔案團隊成員都會與您互動，以取得更多資訊。 您必須先簽署Adobe CLA一次，才能對任何Adobe檔案進行任何次數的貢獻。 請參閱[如何貢獻](contributing.md)文章。
+**重大變更**：按一下文章中的「編輯」、投稿，然後建立提取請求或建立問題。 無論是哪一種方式，請規劃與您互動的檔案團隊成員，以收集更多資訊。 在投稿到任何Adobe檔案之前簽署一次AdobeCLA，次數不限。 請參閱 [如何協助撰寫](contributing.md) 文章。
 
-**針對Adobe員工**:如果您是Adobe員工，請使用Corporate Git來貢獻。請參閱[compiting.md](contributing.md)。 若要提供重大更新，請開啟問題，而檔案團隊成員將會與您聯絡。
+**針對Adobe員工**：如果您是Adobe員工，請使用公司Git來協助撰寫。 另請參閱 [contributing.md](contributing.md). 若要協助貢獻重大更新，請開啟問題。 安排檔案團隊成員就問題聯絡您。
 
-如需我們預期您所提供之行為標準，請參閱[行為准則](code-of-conduct.md)。
+如需Adobe在您協助撰寫時預期的行為標準，請參閱 [行為準則](code-of-conduct.md).

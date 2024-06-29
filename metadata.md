@@ -6,10 +6,10 @@ mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.zh-Hant
 index: y
 recommendations: noDisplay
-source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 79%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
