@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Adobe Experience Manager] 案頭應用程式發行說明」'
-description: 的發行詳細資料、增強功能、新功能、相容性和下載連結 [!DNL Adobe Experience Manager] 案頭應用程式。
+title: '[!DNL Adobe Experience Manager]案頭應用程式發行說明'
+description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細資料、增強功能、新功能、相容性和下載連結。'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
@@ -11,7 +11,7 @@ ht-degree: 12%
 
 ---
 
-# [!DNL Adobe Experience Manager] 案頭應用程式發行說明 {#release-notes-v2}
+# [!DNL Adobe Experience Manager]案頭應用程式發行說明 {#release-notes-v2}
 
 最新案頭應用程式2.3.0版的發行資訊如下。 發行日期為2023年7月14日。
 
@@ -22,175 +22,175 @@ ht-degree: 12%
 * 改善對公司代理和網頁篩選的支援。
 
 
-此 **支援 [!DNL Experience Manager] 版本** 為：
+**支援的[!DNL Experience Manager]版本**&#x200B;為：
 
-* [!DNL Experience Manager] as a [!DNL Cloud Service]. 另請參閱 [發行說明](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0或更新版本，位於AdobeManaged Services (AMS)或內部部署。 另請參閱 [service pack發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes).
+* [!DNL Experience Manager]作為[!DNL Cloud Service]。 請參閱[發行說明](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home)。
+* [!DNL Experience Manager] 6.5.0或更新版本，位於AdobeManaged Services (AMS)或內部部署。 請參閱[Service Pack發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)。
 
-[!DNL Adobe Experience Manager] 案頭應用程式可用於下列專案 **作業系統**：
+[!DNL Adobe Experience Manager]案頭應用程式可用於下列&#x200B;**作業系統**：
 
 * macOS X 10.14或更新版本，提供最新的錯誤修正。
 * Windows 10搭配最新的Service Pack與錯誤修正。
 
-此 **下載URL** 支援的作業系統包括：
+支援作業系統的&#x200B;**下載URL**&#x200B;為：
 
 | 作業系統 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
-| macOS (v2.3.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) |
-| macOS Apple Silicon (M1) (v2.3.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) |
-| Windows 64位元(v2.3.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) |
-| macOS (v2.2.2) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) |
-| macOS Apple Silicon (M1) (v2.2.2) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) |
-| Windows 64位元(v2.2.2) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) |
-| macOS (v2.2.1) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) |
-| macOS Apple Silicon (M1) (v2.2.1) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) |
-| Windows 64位元(v2.2.1) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) |
-| macOS (v2.2.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
-| macOS Apple Silicon (M1) (v2.2.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
-| Windows 64位元(v2.2.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
-| macOS (v2.1.5.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
-| Windows 64位元(v2.1.5.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
-| Windows 32位元(v2.1.5.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) |
-| macOS (v2.1.4.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) |
-| Windows 64位元(v2.1.4.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) |
-| Windows 32位元(v2.1.4.0) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) |
-| macOS (v2.1.3.4) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
-| Windows 64位元(v2.1.3.4) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) |
-| Windows 32位元(v2.1.3.1) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [下載連](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
+| macOS (v2.3.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.0.dmg) |
+| macOS Apple Silicon (M1) (v2.3.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.0.dmg) |
+| Windows 64位元(v2.3.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.0.exe) |
+| macOS (v2.2.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) |
+| macOS Apple Silicon (M1) (v2.2.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) |
+| Windows 64位元(v2.2.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) |
+| macOS (v2.2.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) |
+| macOS Apple Silicon (M1) (v2.2.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) |
+| Windows 64位元(v2.2.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) |
+| macOS (v2.2.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
+| macOS Apple Silicon (M1) (v2.2.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
+| Windows 64位元(v2.2.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
+| macOS (v2.1.5.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
+| Windows 64位元(v2.1.5.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
+| Windows 32位元(v2.1.5.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) |
+| macOS (v2.1.4.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) |
+| Windows 64位元(v2.1.4.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) |
+| Windows 32位元(v2.1.4.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) |
+| macOS (v2.1.3.4) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.4.dmg) |
+| Windows 64位元(v2.1.3.4) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.4.exe) |
+| Windows 32位元(v2.1.3.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 ## 支援不同的資產和檔案型別 {#support-for-file-types}
 
-應用程式支援儲存在中的資產 [!DNL Experience Manager] 代表二進位檔案進行基本運算的檔案。 在原生桌面應用程式中開啟檔案時，需透過作業系統內的特定應用程式（例如 Mac Preview 或 Adobe Photoshop），以特定檔案類型（例如 PNG 或 JPG）開啟。
+應用程式支援儲存在[!DNL Experience Manager]中的資產，這些資產代表二進位檔案以進行其基本作業。 在原生桌面應用程式中開啟檔案時，需透過作業系統內的特定應用程式（例如 Mac Preview 或 Adobe Photoshop），以特定檔案類型（例如 PNG 或 JPG）開啟。
 
-部分檔案類型支援將連結的資產放入二進位檔。如果資產存在於中，應用程式會預先下載連結的資產。 [!DNL Experience Manager] 使用案頭應用程式開啟此類二進位檔案時，儲存庫。 目前支援的檔案類型包括：
+部分檔案類型支援將連結的資產放入二進位檔。使用案頭應用程式開啟此類二進位檔案時，若資產存在於[!DNL Experience Manager]存放庫中，應用程式會預先下載連結的資產。 目前支援的檔案類型包括：
 
-* [!DNL Adobe InDesign] 檔案（INDD格式）
-* [!DNL Adobe Illustrator] 檔案（AI格式）
-* [!DNL Adobe Photoshop] 檔案（PS格式）
+* [!DNL Adobe InDesign]個檔案（INDD格式）
+* [!DNL Adobe Illustrator]個檔案（AI格式）
+* [!DNL Adobe Photoshop]個檔案（PS格式）
 
-支援此功能 [!DNL Adobe Creative Cloud] 2018和 [!DNL Adobe Creative Cloud] 上述應用程式的2019年版本。 應用程式會透過啟發式、最佳比對方法，將連結資產的本機案頭路徑對應至頁面上的URL。 [!DNL Experience Manager] 伺服器。 依賴的假設如下：
+上述應用程式的[!DNL Adobe Creative Cloud] 2018和[!DNL Adobe Creative Cloud] 2019版本支援此功能。 應用程式會使用啟發式、最佳比對方法，將連結資產的本機案頭路徑對應至[!DNL Experience Manager]伺服器上的URL。 依賴的假設如下：
 
-* 原生應用程式中置入檔案的路徑會使用全域案頭路徑(從顯示於 [!UICONTROL Reveal] 選項)。
+* 原生應用程式中置入檔案的路徑使用全域案頭路徑（從顯示有[!UICONTROL Reveal]選項的本機網路共用置入）。
 
 * 原生應用程式會將路徑儲存在檔案的XMP記錄中。
 
-* [!DNL Experience Manager] 已擷取XMP記錄，其中包含資產中繼資料記錄的路徑。
+* [!DNL Experience Manager]已擷取XMP記錄，其中包含資產中繼資料記錄的路徑。
 
-* 路徑可比對中的資產 [!DNL Experience Manager]，也就是說，置入的檔案也位於 [!DNL Experience Manager] 在相符的路徑下。
+* 路徑與[!DNL Experience Manager]中的資產相符，也就是說，置入的檔案也位於相符路徑下的[!DNL Experience Manager]中。
 
 ## 新功能、增強功能和錯誤修正 {#what-is-new}
 
-若要瞭解詳細資訊，請參閱 [v2.0的新增功能](introduction.md#whats-new-v2).
+若要瞭解詳細資訊，請參閱[v2.0](introduction.md#whats-new-v2)的新增功能。
 
-**應用程式v2.2.2中的更新**
+**應用程式v2.2.2**&#x200B;中的更新
 
 * （僅限Windows）安裝2.2.0和2.2.1發行版本後，案頭應用程式會顯示空白熒幕。
 
-**應用程式v2.2.1更新**
+**應用程式v2.2.1**&#x200B;中的更新
 
-* 按一下時，案頭應用程式會顯示工作階段逾時錯誤訊息 **[!UICONTROL Sign In]**.
+* 按一下&#x200B;**[!UICONTROL Sign In]**&#x200B;時，案頭應用程式會顯示工作階段逾時錯誤訊息。
 
 * 在macOS上存取案頭應用程式v2.2.0時發生問題。
 
-* 按一下以排序資產時，案頭應用程式會顯示錯誤訊息 **[!UICONTROL Edited Locally]**.
+* 按一下&#x200B;**[!UICONTROL Edited Locally]**&#x200B;排序資產時，案頭應用程式會顯示錯誤訊息。
 
-**應用程式v2.2.0中的更新**
+**應用程式v2.2.0**&#x200B;中的更新
 
 * 支援Apple矽(M1)。
 
 * 能夠記憶登入案頭應用程式時的連線字串。
 
-**應用程式v2.1.5.0中的更新**
+**應用程式v2.1.5.0**&#x200B;中的更新
 
 * 當您上傳包含中文字元的資料夾中的檔案時，案頭應用程式會停止回應(ASSETS-9237)。
 
 * 案頭應用程式以檔案名稱中的破折號取代點(ASSETS-10955)。
 
-**應用程式v2.1.4.0中的更新**
+**應用程式v2.1.4.0**&#x200B;中的更新
 
 新版應用程式提供錯誤修正。
 
-**應用程式v2.1.3.4中的更新**
+**應用程式v2.1.3.4**&#x200B;中的更新
 
 新版應用程式提供錯誤修正。
 
-**應用程式v2.1.3.3中的更新**
+**應用程式v2.1.3.3**&#x200B;中的更新
 
 新版應用程式提供錯誤修正。
 
-**應用程式v2.1.3.2中的更新**
+**應用程式v2.1.3.2**&#x200B;中的更新
 
 此版本的應用程式提供錯誤修正。
 
-**應用程式v2.1.3.1中的更新**
+**應用程式v2.1.3.1**&#x200B;中的更新
 
 此版本修正的錯誤為：
 
-* 即使使用大型資產，資產上傳和下載速度也有所改善。 此版本修正資產上傳的問題 [!DNL desktop app] 上傳非常大的檔案時有時失敗。
+* 即使使用大型資產，資產上傳和下載速度也有所改善。 此版本修正上傳非常大的檔案時，資產透過[!DNL desktop app]上傳有時失敗的問題。
 
-**應用程式v2.1.2.0更新**
+**應用程式更新v2.1.2.0**
 
-* 要加入的新選項 [!UICONTROL Clear Cookies] 會新增至應用程式的主功能表。 它有助於解決可能的登入問題，例如將伺服器連線變更為另一個伺服器時。 另請參閱 [連線前先清除Cookie](/help/using/troubleshoot.md#cannot-login-cookies-issue).
+* [!UICONTROL Clear Cookies]的新選項已新增至應用程式的主功能表。 它有助於解決可能的登入問題，例如將伺服器連線變更為另一個伺服器時。 在連線前先檢視[清除Cookie](/help/using/troubleshoot.md#cannot-login-cookies-issue)。
 
-* 已新增一個選項，如果選取，可讓應用程式上傳資料夾和節點名稱位於 [!DNL Adobe Experience Manager] 符合本機檔案和資料夾名稱。 此程式可確保本機名稱與上傳名稱之間的一致性。
+* 已新增一個選項，如果選取，可讓應用程式上傳在[!DNL Adobe Experience Manager]中節點名稱符合本機檔案和檔案夾名稱的檔案夾和檔案。 此程式可確保本機名稱與上傳名稱之間的一致性。
 
-  此行為類似於案頭應用程式版本1中的預設行為。 而在目前版本中，如果未啟用選項，則空格和字元 `% ; # , + ? ^ { } "` 中的資料夾名稱會以資料夾路徑中的破折號取代。 此外，資料夾路徑中的大寫字元會轉換為小寫。 不過，在檔案名稱中，字元 `# % { } ? &` 取代為破折號；但會保留空格與大小寫。 如需詳細資訊，請參閱 [應用程式偏好設定](/help/using/install-upgrade.md#set-preferences) 和 [上傳和新增資產](/help/using/using.md#upload-and-add-new-assets-to-aem).
+  此行為類似於案頭應用程式版本1中的預設行為。 而在目前版本中，如果未啟用選項，則資料夾名稱中的空格和字元`% ; # , + ? ^ { } "`會取代為資料夾路徑中的破折號。 此外，資料夾路徑中的大寫字元會轉換為小寫。 不過，在檔案名稱中，字元`# % { } ? &`會以破折號取代；但會保留空格與大小寫。 如需詳細資訊，請參閱[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)和[上傳並新增資產](/help/using/using.md#upload-and-add-new-assets-to-aem)。
 
-**應用程式v2.1.1.0更新**
+**應用程式更新v2.1.1.0**
 
-* 進階設定可讓應用程式在上傳資料夾時模擬v1.10應用程式行為。 在v1.10中，在存放庫中建立的節點名稱會遵循使用者提供的資料夾名稱空格和大小寫。 在2.1版中，預設行為未變更：資料夾名稱中的多個空格會由存放庫節點名稱中的連字型大小取代，而節點名稱會轉換為小寫。 另請參閱 [應用程式偏好設定](/help/using/install-upgrade.md#set-preferences).
+* 進階設定可讓應用程式在上傳資料夾時模擬v1.10應用程式行為。 在v1.10中，在存放庫中建立的節點名稱會遵循使用者提供的資料夾名稱空格和大小寫。 在2.1版中，預設行為未變更：資料夾名稱中的多個空格會由存放庫節點名稱中的連字型大小取代，而節點名稱會轉換為小寫。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。
 
-**應用程式v2.1.0.0更新**
+**應用程式更新v2.1.0.0**
 
-* 若要上傳資產，使用者現在可以直接從Windows檔案總管或Mac Finder在應用程式的介面上拖曳檔案或資料夾。 除了應用程式中可用的上傳選項外，此程式也可運作。 另請參閱 [上傳資產](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* 若要上傳資產，使用者現在可以直接從Windows檔案總管或Mac Finder在應用程式的介面上拖曳檔案或資料夾。 除了應用程式中可用的上傳選項外，此程式也可運作。 檢視[上傳資產](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**應用程式v2.0.3更新**
+**應用程式更新v2.0.3**
 
 此版本修正的錯誤為：
 
-* 修正Windows上嘗試存取DAM存放庫的應用程式使用者登入問題 [!DNL Adobe Experience Manager] 6.5.5.0。
+* 修正Windows上嘗試存取[!DNL Adobe Experience Manager] 6.5.5.0上DAM存放庫的應用程式使用者登入問題。
 
-**應用程式v2.0.2中的更新**
+**應用程式v2.0.2**&#x200B;中的更新
 
 錯誤修正和更新包括：
 
 * 現在提供上傳加速設定以提高上傳效能。 開啟此設定時，應用程式會使用更多本機CPU執行緒，以更快的速度上傳，而且會佔用更多資源。
 
-* 若檔案名稱或路徑包含特定GB18030字元已固定，則會上傳資產。 <!-- CQ-4283494 -->
+* 若檔案名稱或路徑包含特定GB18030字元已固定，則會上傳資產。<!-- CQ-4283494 -->
 
-* 在搜尋結果中切換為其他排序型別後，即可使用依關聯性排序選項。 <!-- CQ-4286874 -->
+* 在搜尋結果中切換為其他排序型別後，即可使用依關聯性排序選項。<!-- CQ-4286874 -->
 
-* 案頭應用程式現在會列出子資料夾，不需要明確重新整理。 <!-- CQ-4285711 -->
+* 案頭應用程式現在會列出子資料夾，不需要明確重新整理。<!-- CQ-4285711 -->
 
-* (Windows)修正某些Windows電腦無法使用應用程式介面的罕見問題。 使用者無法點選應用程式介面，因為介面元素的點選區域向側邊偏移，導致介面看起來扭曲。 <!-- CQ-4280785 -->
+* (Windows)修正某些Windows電腦無法使用應用程式介面的罕見問題。 使用者無法點選應用程式介面，因為介面元素的點選區域向側邊偏移，導致介面看起來扭曲。<!-- CQ-4280785 -->
 
-**應用程式v2.0.1中的更新**
+**應用程式v2.0.1**&#x200B;中的更新
 
 錯誤修正和更新包括：
 
-* 允許選項以設定 `%Temp%` 要比對的目錄 `%APPDATA%` 路徑。 <!-- CQ-4282665 -->
+* 允許選項設定`%Temp%`目錄以符合`%APPDATA%`路徑。<!-- CQ-4282665 -->
 
-* 允許使用者登入 [!DNL Experience Manager] 作者透過Okta SAML驗證。 <!-- CQ-4278134 -->
+* 允許使用者透過Okta SAML驗證登入[!DNL Experience Manager]作者。<!-- CQ-4278134 -->
 
 ## 安裝指示 {#installation-instructions-v2}
 
-若要瞭解如何安裝和設定應用程式，請參閱 [安裝 [!DNL Experience Manager] 案頭應用程式](install-upgrade.md).
+若要瞭解如何安裝和設定應用程式，請參閱[安裝 [!DNL Experience Manager] 案頭應用程式](install-upgrade.md)。
 
-如果您要從上一個升級 [!DNL Experience Manager] 您必須遵循列於以下網站的最佳作法進行轉換： [從舊版升級](install-upgrade.md#upgrade-from-previous-version).
+如果您要從舊版[!DNL Experience Manager]案頭應用程式進行升級，您必須遵循列於[從舊版](install-upgrade.md#upgrade-from-previous-version)進行升級的最佳作法進行轉換。
 
 ## 應用程式運作方式的重要附註 {#how-app-works}
 
 請務必瞭解以下關於應用程式及其運作方式的資訊。
 
-* 應用程式可完全控制需要從和到完全傳輸資產二進位檔的作業 [!DNL Experience Manager] (**開啟**， **編輯**， **上傳變更**、和 **上傳Assets**)。
+* 應用程式可完整控制需要從[!DNL Experience Manager]到完整傳輸資產二進位檔的作業(**開啟**、**編輯**、**上傳變更**&#x200B;和&#x200B;**上傳Assets**)。
 
    * 如果想要在案頭使用資產，您必須明確地「開啟」、「編輯」或「下載」資產至案頭，並可使用個別檔案、資料夾或多個檔案選取的方式進行上述操作。
 
-   * 若要將資產的本機變更上傳至 [!DNL Experience Manager]，您必須選取 [!UICONTROL Upload Changes]、個別選取或透過多重選取。
+   * 若要將資產的本機變更內容上傳至[!DNL Experience Manager]，您必須個別或透過多重選取方式選取[!UICONTROL Upload Changes]。
 
-   * 此應用程式不是將資產同步到整個案頭的「同步使用者端」，而且 [!DNL Experience Manager].
+   * 應用程式不是將資產同步到案頭與[!DNL Experience Manager]上的「同步使用者端」。
 
-   * 應用程式不提供對應 [!DNL Experience Manager] 以虛擬資料夾結構形式儲存庫。
+   * 應用程式未提供將[!DNL Experience Manager]存放庫對應為虛擬資料夾結構的網路共用。
 
 * 應用程式顯示的資產清單是根據Assets存放庫的狀態。 應用程式不會顯示或管理從本機下載、隨後在本地檔案或快取資料夾中重新命名的檔案。
 
@@ -202,25 +202,25 @@ ht-degree: 12%
 
 下圖說明資產和檔案如何從雲端移動至本機檔案系統（反之亦然），這是由使用者動作所啟動。
 
-![資產流自 [!DNL Experience Manager] 透過案頭應用程式從伺服器到原生案頭應用程式](assets/da20_flow_diagram.png)
+![透過案頭應用程式，資產從[!DNL Experience Manager]伺服器流向原生案頭應用程式](assets/da20_flow_diagram.png)
 
 ## 已知問題 {#known-issues-v2}
 
 **使用者介面問題：**
 
-* 某些時候，案頭應用程式的介面可能會變成空白。 按一下滑鼠右鍵並按一下 [!UICONTROL Refresh] 以重新載入應用程式。 在重新整理後，您會從DAM存放庫的根目錄開始。 資產的更新或狀態會保留。 <!-- CQ-4270267 -->
+* 某些時候，案頭應用程式的介面可能會變成空白。 按一下滑鼠右鍵並按一下[!UICONTROL Refresh]以重新載入應用程式。 在重新整理後，您會從DAM存放庫的根目錄開始。 資產的更新或狀態會保留。<!-- CQ-4270267 -->
 
-* 在沒有軌跡板或滑鼠指標的情況下，很難導覽資料夾/搜尋結果。 沒有滾輪的滑鼠裝置不會顯示卷軸。 <!-- CQ-4269947 -->
+* 在沒有軌跡板或滑鼠指標的情況下，很難導覽資料夾/搜尋結果。 沒有滾輪的滑鼠裝置不會顯示卷軸。<!-- CQ-4269947 -->
 
 * 少數情況下，當上傳的資產變更時，進度列可能無法顯示正確的進度。
 
 * 在您套用、移除篩選器以尋找所有在本機編輯的資產後，應用程式不會將使用者引導至剛開始的搜尋結果或資料夾檢視。應用程式會顯示 DAM 資料庫的根資料夾。
 
-* 某些時候，當您連線至沒有的URL時 [!DNL Experience Manager] 伺服器執行時，連線畫面會停止回應。 請退出應用程式並重新啟動。
+* 某些時候，當您連線至未執行[!DNL Experience Manager]伺服器的URL時，連線畫面會停止回應。 請退出應用程式並重新啟動。
 
 **CRUD（建立、讀取、更新和刪除）相關問題：**
 
-* 當上傳含有註解的變更至資產時，註解會與資產一併儲存於 [!DNL Experience Manager] 但不會顯示為版本設定註解。 此問題已在中解決 [!DNL Experience Manager] 6.4.5和 [!DNL Experience Manager] 6.5.1。Adobe建議安裝最新的Service Pack。 <!-- CQ-4268990 -->
+* 當上傳含有註解的變更至資產時，註解會與資產一併儲存在[!DNL Experience Manager]中，但無法顯示為版本設定註解。 此問題已在[!DNL Experience Manager] 6.4.5和[!DNL Experience Manager] 6.5.1中解決。Adobe建議安裝最新的Service Pack。<!-- CQ-4268990 -->
 
 * 使用者無法取消資產傳輸。 如果您不小心觸發了非預期的大量傳輸，請退出應用程式並重新啟動。<!-- CQ-4278940 -->
 
@@ -230,8 +230,8 @@ ht-degree: 12%
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Experience Manager] as a [!DNL Cloud Service] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/overview)
->* [使用方式 [!DNL Experience Manager] 案頭應用程式](using.md)
+>* [[!DNL Experience Manager] 作為 [!DNL Cloud Service] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service)
+>* [[!DNL Experience Manager] 作為 [!DNL Cloud Service] [!DNL Assets]檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/overview)
+>* [如何使用 [!DNL Experience Manager] 案頭應用程式](using.md)
 >* [安裝和升級桌面應用程式](install-upgrade.md)
 >* [最佳作法與疑難排解提示](troubleshoot.md)

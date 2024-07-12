@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] 案頭應用程式v1.10發行說明 {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager]案頭應用程式v1.10發行說明 {#aem-desktop-app-release-notes}
 
 以下是案頭應用程式v1.x版的下載連結和AEM相容性資訊。
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 | 版本 | 1.10 (Mac上為1.10.0.6，Windows上為1.10.0.3) |
 | 類型 | 次要版本 |
 | 日期 | 1.10.0.6 (Mac)：2020年4月15日；1.10.0.3 (Win)：2018年8月31日 |
-| 下載 URL | [macOS X 64位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg)； [Windows 32位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe)； [Windows 64位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| 下載 URL | [macOS X 64位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg)；[Windows 32位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe)；[Windows 64位元](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | 相容性 | AEM 6.5.x；AEM 6.4.x；AEM 6.3 SP2；AEM 6.2 SP1 CFP2+；AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 系統需求和先決條件 {#system-requirements-and-prerequisites}
 
-[!DNL Adobe Experience Manager] 案頭應用程式與下列作業系統相容：
+[!DNL Adobe Experience Manager]案頭應用程式與下列作業系統相容：
 
 * macOS X 10.10或更新版本，提供最新的錯誤修正。
 
@@ -35,9 +35,10 @@ ht-degree: 0%
 
 Adobe建議您使用最新版AEM案頭應用程式，以確保您使用的是最新功能、最新錯誤修正和最佳效能。
 
-您打算在本機電腦上安裝的AEM案頭應用程式版本，需要特定的AEM伺服器版本/其他伺服器端元件（Service Pack、Hot Fix或Feature Pack）。 在第一次連線到AEM伺服器之前，請確定已正確設定該伺服器。 如果您需要協助，請聯絡您的AEM管理員。
+您打算在本機電腦上安裝的AEM案頭應用程式版本，需要特定的AEM伺服器
+版本/其他伺服器端元件（服務套件、修補程式或功能套件）。 在第一次連線到AEM伺服器之前，請確定已正確設定該伺服器。 如果您需要協助，請聯絡您的AEM管理員。
 
-請參閱 [詳細的相容性矩陣](#compatibilitymatrix) 在本檔案結束時，將評估您設定的先決條件。
+請參閱本檔案結尾的[詳細相容性矩陣](#compatibilitymatrix)，以評估您設定的先決條件。
 
 ## 案頭應用程式v1.10的新增功能 {#what-s-new-in-aem-desktop-app}
 
@@ -45,43 +46,43 @@ AEM案頭應用程式1.10著重於改善大型上傳的使用者體驗、背景�
 
 >[!NOTE]
 >
->如果您是使用macOS 10.15.4或更新版本，應至少使用應用程式1.10.0.6版。 此修補程式版本符合 [Apple公證需求](https://developer.apple.com/news/?id=04102019a).
+>如果您是使用macOS 10.15.4或更新版本，應至少使用應用程式1.10.0.6版。 此修補程式版本符合[Apple公證要求](https://developer.apple.com/news/?id=04102019a)。
 
-**本機編輯/簽出**：您可以在狀態視窗中停用自動上傳儲存至資產的變更。 如此一來，使用者就可以繼續處理檔案並儲存變更，然後在變更準備就緒後，決定上傳所有變更。
+**本機編輯/簽出**：可在狀態視窗中停用自動上傳儲存至資產的變更。 如此一來，使用者就可以繼續處理檔案並儲存變更，然後在變更準備就緒後，決定上傳所有變更。
 
-**簡化的資產狀態視窗**. 狀態視窗已簡化。 此 [!UICONTROL Uploads] 索引標籤現在會顯示個別資產和資料夾或大量上傳。 先前的大量上傳索引標籤已移除。
+**簡化的資產狀態視窗**。 狀態視窗已簡化。 [!UICONTROL Uploads]索引標籤現在會顯示個別資產，以及資料夾或大量上傳。 先前的大量上傳索引標籤已移除。
 
-**表示大量上傳的應用程式圖示**. 應用程式圖示會顯示「傳輸」覆蓋，指出大量上傳正在進行中。
+**應用程式圖示表示大量上傳**。 應用程式圖示會顯示「傳輸」覆蓋，指出大量上傳正在進行中。
 
-**更新衝突通知**. 當應用程式在資產更新期間偵測到衝突時，它會顯示通知，讓使用者可以在不監視狀態視窗的情況下進行檢閱。 啟動時，應用程式會檢查所有衝突，讓使用者解決衝突。
+**更新衝突通知**。 當應用程式在資產更新期間偵測到衝突時，它會顯示通知，讓使用者可以在不監視狀態視窗的情況下進行檢閱。 啟動時，應用程式會檢查所有衝突，讓使用者解決衝突。
 
-**更妥善地處理連線中斷**. 如果發生連線中斷，則會暫停大量上傳，使用者稍後可以繼續。 A [!UICONTROL Retry] 選項可用於重試個別檔案的失敗上傳。
+**更妥善處理連線遺失**。 如果發生連線中斷，則會暫停大量上傳，使用者稍後可以繼續。 [!UICONTROL Retry]選項可用於重試個別檔案的失敗上傳。
 
 ## 安裝指示 {#installation-instructions}
 
-如需詳細指示，請參閱 [安裝及設定AEM案頭應用程式](install-configure-app-v1.md).
+如需詳細指示，請參閱[安裝及設定AEM案頭應用程式](install-configure-app-v1.md)。
 
 ## 舊版中的增強功能 {#enhancements-in-the-previous-versions}
 
-此版本延伸並取代舊版的 [!DNL Experience Manager] 案頭應用程式，其中提供下列重要增強功能：
+此版本延伸並取代舊版[!DNL Experience Manager]案頭應用程式，提供下列重要增強功能：
 
-* **版本1.9 / 1.9.1**：可恢復上傳、改善狀態視窗、顯示應用程式/連線狀態的應用程式圖示，以及預先擷取InDesign檔案的連結資產。
+* **版本1.9 / 1.9.1**：可恢復上傳、改善狀態視窗、顯示應用程式/連線狀態的應用程式圖示、預先擷取InDesign檔案的連結資產。
 
-* **版本1.8**：可更有效控制使用者的快取大小，改善Windows上SAML/SSO的登入體驗，支援 `.pac` Mac上的網路Proxy，以及客戶回報的問題。
+* **1.8**&#x200B;版：能更妥善控制使用者的快取大小、改善Windows上SAML / SSO的登入體驗、在Mac上支援`.pac`網路Proxy，以及客戶回報的問題。
 
-* **版本1.7**：改善穩定性和快取邏輯、更支援網路proxy，以及在解除安裝後清除內部檔案的功能。
+* **版本1.7**：改善穩定性和快取邏輯、更支援網路Proxy，以及在解除安裝後清除內部檔案的功能。
 
-* **版本1.6**：改善各種AEM安全性設定的登入程式，以及應用程式的穩定性和效能。
+* **版本1.6**：改善各種AEM安全性組態和應用程式穩定性與效能的登入程式。
 
-* **1.5版**：應用程式的穩定性與彈性，能因應各種網路問題，提供更出色的支援能力。
+* **版本1.5**：應用程式穩定性以及針對各種網路問題的彈性，更好的支援性。
 
-* **1.4版**：可透過進度監視，在背景上傳階層資料夾。
+* **版本1.4**：可在進度監控的背景上傳階層資料夾。
 
-* **1.3版**：效能增強以及存取檔案和儲存對AEM變更的穩定性，尤其是透過Creative Cloud案頭應用程式，如InDesign、Illustrator或Photoshop。 它旨在為使用者處理檔案時提供更類似本機案頭的體驗，同時在背景處理網路資料傳輸操作。
+* **版本1.3**：效能增強與存取檔案和儲存變更至AEM的穩定性，尤其是透過Creative Cloud案頭應用程式，如InDesign、Illustrator或Photoshop。 它旨在為使用者處理檔案時提供更類似本機案頭的體驗，同時在背景處理網路資料傳輸操作。
 
 ### AEM案頭應用程式1.9之後提供的增強功能 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] 案頭應用程式1.9.1版是修補程式發行版本。 其設計旨在解決資產結帳的重要客戶問題。 而且，將檔案從網路共用複製到本機目錄的位址。
+[!DNL Adobe Experience Manager]案頭應用程式1.9.1版是修補程式版本。 其設計旨在解決資產結帳的重要客戶問題。 而且，將檔案從網路共用複製到本機目錄的位址。
 
 * 一位使用者取出的Assets不可供其他使用者修改(CQ-4246009)
 
@@ -89,7 +90,7 @@ AEM案頭應用程式1.10著重於改善大型上傳的使用者體驗、背景�
 
 AEM案頭應用程式1.9著重改善使用者在大型上傳上的體驗、背景作業的相關資訊，以及在開啟包含連結檔案(如InDesign)的資產時的最佳化體驗。
 
-**可恢復的上傳**
+**可繼續上傳**
 對於上傳，尤其是大型檔案，在新的「資產狀態」視窗中可以選擇暫停/恢復檔案。
 
 **已改善資產狀態視窗**
@@ -109,9 +110,9 @@ AEM案頭應用程式1.9著重改善使用者在大型上傳上的體驗、背�
 
 * 衝突的檔案會顯示一個圖示，使用者可按一下該圖示。 按一下圖示會顯示含有說明和兩個選項的對話方塊：
 
-   * [!UICONTROL Keep Mine] 立即將檔案上傳至伺服器。
+   * [!UICONTROL Keep Mine]立即將檔案上傳至伺服器。
 
-   * [!UICONTROL Overwrite Mine] 立即刪除本機檔案，並從伺服器下載新復本。
+   * [!UICONTROL Overwrite Mine]會立即刪除本機檔案，並從伺服器下載新的復本。
 
 [!UICONTROL Downloads]
 
@@ -123,13 +124,13 @@ AEM案頭應用程式1.9著重改善使用者在大型上傳上的體驗、背�
 
 * 頁尾顯示下載的檔案總數和平均傳輸率。
 
-* 如果使用者選擇開啟或編輯多個檔案 [!DNL Experience Manager Assets] 網頁介面時，會將它們分組在一起。 例如，myasset.jpeg和其他4個檔案。
+* 如果使用者選擇從[!DNL Experience Manager Assets] Web介面開啟或編輯多個檔案，這些檔案會分組在一起。 例如，myasset.jpeg和其他4個檔案。
 
 * 從AEM Assets下載含有連結資產的InDesign檔案時，案頭應用程式會先下載所有連結資產，然後再開啟檔案並指示下載狀態。 例如，24個中的5個。
 
 [!UICONTROL Bulk Uploads]
 
-透過上傳大型資料夾階層 [!UICONTROL Create] > [!UICONTROL Upload Folder] 在AEM Web UI中觸發此對話方塊。 在案頭應用程式內容功能表的Finder或Explorer中複製並選取「貼上Assets」時，也會發生相同的情況。
+透過AEM Web UI中的[!UICONTROL Create] > [!UICONTROL Upload Folder]上傳大型資料夾階層會觸發此對話方塊。 在案頭應用程式內容功能表的Finder或Explorer中複製並選取「貼上Assets」時，也會發生相同的情況。
 
 * 顯示進行中的上傳，包括進度列和目前傳輸之檔案的名稱。
 
@@ -139,7 +140,7 @@ AEM案頭應用程式1.9著重改善使用者在大型上傳上的體驗、背�
 
 * 如果個別檔案傳輸失敗，則會以錯誤形式顯示在標籤上。 否則，個別檔案不會顯示在索引標籤上*整個上傳作業只會顯示一個專案。
 
-**表示背景作業狀態的圖示**
+表示背景作業狀態的&#x200B;**圖示**
 
 應用程式圖示會指出背景作業的狀態，為使用者提供更好的視覺提示。 例如，當應用程式未連線至AEM時，圖示會呈現灰色。 當有使用中上傳時，會顯示「同步」覆蓋圖等。
 
@@ -168,7 +169,7 @@ AEM案頭應用程式1.8.1快速追蹤版本新增改善從AEM UI一次開啟多
 
    * AEM工作階段過期時，使用者現在會收到通知，並可以按一下通知再次登入(CQ-4202028)。
 
-   * (Mac)透過使用新增對AEM連線的支援 `.pac` proxy設定(CQ-4233430)。
+   * (Mac)透過使用`.pac` Proxy設定(CQ-4233430)，新增連線至AEM的支援。
 
    * (Win)修正進階 — 登入URL對話方塊(CQ-4236061)的問題。
 
@@ -202,7 +203,7 @@ AEM案頭應用程式1.8.1快速追蹤版本新增改善從AEM UI一次開啟多
 
    * (Win)清除程式解除安裝(CQ-4220906)。
 
-   * [Windows 32位元] 安裝程式嘗試安裝Microsoft .NET Framework 4.5版時失敗(CQ-4218084)。
+   * [Windows 32位元]安裝程式無法嘗試安裝Microsoft .NET Framework 4.5版(CQ-4218084)。
 
    * (Mac)用來完全移除案頭應用程式檔案的手動指令碼(CQ-4216489)。
 
@@ -212,7 +213,7 @@ AEM案頭應用程式1.8.1快速追蹤版本新增改善從AEM UI一次開啟多
 
 ### AEM案頭應用程式1.6之後提供的增強功能 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* 檔案：新增 [v1.x應用程式的最佳作法](/help/using/best-practices-for-v1.md) 檔案。
+* 檔案： v1.x應用程式的新[最佳作法](/help/using/best-practices-for-v1.md)檔案。
 
 * 改善AEM登入程式：
 
@@ -286,7 +287,7 @@ AEM案頭應用程式1.8.1快速追蹤版本新增改善從AEM UI一次開啟多
 
 這兩種情況都是預期中的情形，都是AEM案頭版「延遲同步」架構的副作用。
 
-**適用於macOS X和Windows的1.5.0.x版：** 此版本的AEM案頭應用程式提供下列優點：
+**適用於macOS X和Windows的1.5.0.x版：**&#x200B;此版本的AEM案頭應用程式提供下列優點：
 
 * 針對網路問題提供更優異的穩定性與回覆能力。
 
@@ -347,13 +348,13 @@ AEM案頭應用程式1.8.1快速追蹤版本新增改善從AEM UI一次開啟多
 
 AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，它變更為使用者本機資料夾中的DAM子資料夾，支援非管理員使用者(CQ-104183)。
 
-因為 `/Volumes` 資料夾不再需要管理許可權，此變更已在1.5.1中還原。此外，這項變更也使得在macOS使用者之間共用已從AEM置入資產的InDesign檔案成為可能。
+由於`/Volumes`資料夾不再需要管理許可權，此變更已在1.5.1中還原。此外，這項變更也使得在macOS使用者之間共用已從AEM置入資產的InDesign檔案成為可能。
 
 ### 通訊協定變更（自v1.3起） {#protocol-change-since}
 
 * macOS X：
    * OS X案頭整合的本機網路磁碟機通訊協定從WebDAV變更為SMB1。
-   * 隨案頭應用程式掛載的AEM存放庫會顯示為 `smb` Finder中的網路磁碟機，而非WebDAV磁碟機。
+   * 隨案頭應用程式掛接的AEM存放庫在Finder中會顯示為`smb`網路磁碟機，而非WebDAV磁碟機。
 * Windows：
    * Windows案頭整合的本機網路磁碟機通訊協定會保留；AEM會掛載為WebDAV共用。
 * 針對兩種平台(Windows和Mac)：
@@ -361,7 +362,7 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
 
 >[!NOTE]
 >
->在macOS X上，將本機網路磁碟機通訊協定從WebDAV變更為SMB1會導致存放庫中相同資產的不同本機路徑。 這項變更可能會影響透過「置入」命令置入Adobe Creative Cloud應用程式之檔案的連結。 請參閱 [使用AEM案頭應用程式](use-app-v1.md) 以取得詳細資訊。
+>在macOS X上，將本機網路磁碟機通訊協定從WebDAV變更為SMB1會導致存放庫中相同資產的不同本機路徑。 這項變更可能會影響透過「置入」命令置入Adobe Creative Cloud應用程式之檔案的連結。 如需詳細資訊，請參閱[使用AEM案頭應用程式](use-app-v1.md)。
 
 ### 檔案處理（自1.3開始） {#file-handling-since}
 
@@ -369,15 +370,15 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
 * 由其他使用者簽出的檔案會標示為唯讀。
 * 檔案會儲存在透過案頭應用程式掛載的網路磁碟機位置，分為兩個階段。
 * 在第一階段，檔案會儲存在本機。 如此一來，使用者儲存檔案時便不需要等到檔案完全傳輸到AEM，而且只要儲存檔案就可以恢復工作。
-* 在第二個階段，案頭應用程式會在預先定義的延遲（例如30秒）後，將更新的檔案上傳到AEM伺服器。 這項作業會在背景中進行。 使用 **顯示背景檔案同步處理狀態** 用於檢視上傳作業狀態的選項。
+* 在第二個階段，案頭應用程式會在預先定義的延遲（例如30秒）後，將更新的檔案上傳到AEM伺服器。 這項作業會在背景中進行。 使用&#x200B;**顯示背景檔案同步處理狀態**&#x200B;選項來檢視上傳作業的狀態。
 
 ## 重要通知 {#important-notices}
 
-**資料夾上傳。** Adobe建議您使用新的資料夾上傳功能，將較大的階層資料夾上傳至AEM。 建議使用這種方法，而不是從Finder/Explorer層級使用複製/拖放至已掛接的AEM存放庫中。 使用資料夾上傳功能時，案頭應用程式會直接與AEM通訊，因此更能掌控整體程式。
+**資料夾上傳。** Adobe建議您使用新的資料夾上傳功能，將較大的階層資料夾上傳到AEM中。 建議使用這種方法，而不是從Finder/Explorer層級使用複製/拖放至已掛接的AEM存放庫中。 使用資料夾上傳功能時，案頭應用程式會直接與AEM通訊，因此更能掌控整體程式。
 
-**保留AEM工作階段可用。** AEM案頭應用程式取決於向AEM Assets伺服器開啟的工作階段，以確保正常運作。 每天的使用者應在每天結束時解除安裝AEM Assets以登出，並在早上重新裝載以確保登入和網路共用功能。
+**保留AEM工作階段可用。** AEM案頭應用程式依存於AEM Assets伺服器開啟的工作階段，以確保正常運作。 每天的使用者應在每天結束時解除安裝AEM Assets以登出，並在早上重新裝載以確保登入和網路共用功能。
 
-**關閉Finder中的「圖示預覽」。** 若要使用Finder高效瀏覽大型資料夾，尤其是網路連線不佳時，請確定「圖示」和「圖示預覽」皆關閉。 否則，Finder會開始將每個資產下載到資料夾中，以產生小型預覽，這可能會導致效能變差和高頻寬使用率(CQ-4219779)
+**關閉[尋找器]中的[圖示預覽]。**&#x200B;若要使用Finder高效瀏覽大型資料夾，尤其是網路連線不佳時，請確定「圖示」和「圖示預覽」皆已關閉。 否則，Finder會開始將每個資產下載到資料夾中，以產生小型預覽，這可能會導致效能變差和高頻寬使用率(CQ-4219779)
 
 * 在尋找器中，前往AEM Assets共用網路資料夾
 * 在DAM掛載點上按一下右鍵
@@ -385,17 +386,17 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
 * 取消選取「顯示圖示預覽」
 * 按一下「使用作為預設值」
 
-**連線到新的AEM伺服器時清除快取。** 如果案頭應用程式使用相同的URL連線到另一個AEM伺服器，則不會自動清除快取。 手動清除快取以確保正常運作。 請注意，此程式通常會在測試中發生，因為同一URL上執行時，AEM安裝可能會被取代(CQ-4216982)
+**連線到新的AEM伺服器時清理快取。**&#x200B;如果案頭應用程式使用相同的URL連線到另一個AEM伺服器，則不會自動清除快取。 手動清除快取以確保正常運作。 請注意，此程式通常會在測試中發生，因為同一URL上執行時，AEM安裝可能會被取代(CQ-4216982)
 
-**使用CA簽署的SSL憑證。** 透過HTTPS安全連線連線到AEM時，AEM案頭應用程式不支援自我簽署SSL憑證。 伺服器上需要有CA簽署的憑證才能進行這類連線。 (CQ-87941)
+**使用CA簽署的SSL憑證。**&#x200B;透過HTTPS安全連線連線到AEM時，AEM案頭應用程式不支援自我簽署SSL憑證。 伺服器上需要有CA簽署的憑證才能進行這類連線。 (CQ-87941)
 
 ## 已知問題 {#known-issues}
 
 * 一般：
-   * 必須有伺服器URL才能指向沒有路徑的伺服器(例如， `http://server`， `https://server`， `http://server:port`，或 `https://server:port`)。 不支援/content/dam以外的內容路徑和子資料夾(CQ-89343、CQ-87272)
+   * 必須有伺服器URL指向沒有路徑的伺服器（例如，`http://server`、`https://server`、`http://server:port`或`https://server:port`）。 不支援/content/dam以外的內容路徑和子資料夾(CQ-89343、CQ-87272)
 * 檔案名稱/本地化：
    * 含有保留字元的檔案和資料夾名稱未正確處理。 請務必使用符合AEM要求的檔案和資料夾名稱。 (CQ-93361、CQ-93308、CQ-89276、CQ-4217183)
-   * 有些應用程式(如Adobe Illustrator)可能會建立AEM不支援其名稱的檔案。 例如，新增 `Converted` 轉換檔案後，這會阻止檔案上傳。 (CQ-4216985)
+   * 有些應用程式(如Adobe Illustrator)可能會建立AEM不支援其名稱的檔案。 例如，在轉換檔案後新增`Converted`，這會停止上傳檔案。 (CQ-4216985)
    * 具有國際名稱的Assets可能會每隔幾秒出現和消失。
 * 簽入和簽出：
    * 某位使用者所簽出的資產，無法透過觸控式UI中的「開啟」動作或直接在案頭上為另一位使用者開啟。 有些應用程式可能會回報為已鎖定，但也會損毀，或在嘗試開啟時擱置。 (CQ-4199234)
@@ -403,7 +404,7 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
    * 某些應用程式不正確支援唯讀標幟，這會讓使用者儲存另一個使用者已簽出的檔案。 在其他使用者簽入檔案之前，不會傳輸修改過的檔案。 兩種修改都會在AEM中以不同資產版本提供。 (CQ-89551、CQ-87572、CQ-89615)
    * 出庫和唯讀狀態會在Finder中獨立報告。 使用者簽出資產時，此方法會產生兩個鎖定圖示。 (CQ-89507)
 * 搜尋器整合：
-   * 拖放大型檔案時，當檔案在背景傳輸時，Finder可能會逾時。 此延遲會導致 `Error - 36`. 因應措施是再次拖放或開啟資產。 (CQ-4219628)
+   * 拖放大型檔案時，當檔案在背景傳輸時，Finder可能會逾時。 此延遲會導致`Error - 36`。 因應措施是再次拖放或開啟資產。 (CQ-4219628)
    * 手動資料夾重新載入並不一定有效。 解決方法：等候三十秒讓資料夾自動更新。 (CQ-97389)
    * 更多資產資訊……僅限於單一檔案選取專案。 (CQ-89542、CQ-87656)
    * 在AEM Assets中開啟……僅限於選擇單一檔案和資料夾。 (CQ-83382)
@@ -412,7 +413,7 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
 * Windows：
    * 只有NTFS完全支援具有替代資料串流(ADS)的檔案。 透過案頭應用程式將檔案複製到WebDAV共用時，會出現警告對話方塊，警告某些檔案屬性無法傳輸到新位置。 此警告通常沒有問題，因為屬性只與使用者案頭上的特定應用程式相關，與實際檔案內容無關。 (CQ-103770) (Win)
    * 在Windows上使用案頭應用程式的使用者必須是安裝該應用程式的使用者。 (CQ-4216389) (Win)
-   * 選取時，應用程式可能會當機 [!UICONTROL Retry] 選項時上傳失敗。 中斷連線後，在繼續批次上傳後，在某些情況下，可能會發生此當機。 (CQ-4251884) (Win)
+   * 在失敗的上傳上選取[!UICONTROL Retry]選項時，應用程式可能會當機。 中斷連線後，在繼續批次上傳後，在某些情況下，可能會發生此當機。 (CQ-4251884) (Win)
 
 ## 實用資源 {#helpful-resources}
 
