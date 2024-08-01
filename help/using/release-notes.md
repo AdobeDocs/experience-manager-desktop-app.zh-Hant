@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 11a4397aa54cd58395b02273864f4edd843357a1
+source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 11%
 
 ---
