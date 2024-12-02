@@ -23,7 +23,7 @@ ht-degree: 11%
 
 **支援的[!DNL Experience Manager]版本**&#x200B;為：
 
-* [!DNL Experience Manager]作為[!DNL Cloud Service]。 請參閱[發行說明](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home)。
+* [!DNL Experience Manager]作為[!DNL Cloud Service]。 請參閱[發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/home)。
 * [!DNL Experience Manager] 6.5.0或更新版本，位於AdobeManaged Services (AMS)或內部部署。 請參閱[Service Pack發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)。
 
 [!DNL Adobe Experience Manager]案頭應用程式可用於下列&#x200B;**作業系統**：
