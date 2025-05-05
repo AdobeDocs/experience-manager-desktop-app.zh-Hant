@@ -95,7 +95,7 @@ Assets API中的複製和移動方法需要下列額外的標頭才能傳遞至[
 
 ### 管理快取的應用程式內選項 {#in-app-option-to-manage-cache}
 
-您可以控制可用於本機快取的磁碟空間量。 Assets伺服器的成品會快取到本機，以獲得更流暢的體驗。 您可以變更預設值以符合您的需求。 此外，您也可以清除快取，以重新擷取所有資產。 若要設定所要的選項，請按一下應用程式的圖示，然後按一下&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。****
+您可以控制可用於本機快取的磁碟空間量。 Assets伺服器的成品會快取到本機，以獲得更流暢的體驗。 您可以變更預設值以符合您的需求。 此外，您也可以清除快取，以重新擷取所有資產。 若要設定所要的選項，請按一下應用程式的圖示，然後按一下&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。**&#x200B;**
 
 >[!NOTE]
 >
@@ -127,6 +127,6 @@ Assets API中的複製和移動方法需要下列額外的標頭才能傳遞至[
 
 >[!MORELIKETHIS]
 >
-* 觀看[介紹 [!DNL Experience Manager] 案頭應用程式](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) （5分鐘43秒）。
-* [使用 [!DNL Experience Manager] 案頭應用程式](use-app-v1.md)。
-* [疑難排解 [!DNL Experience Manager] 案頭應用程式](troubleshoot-app-v1.md)。
+>* 觀看[介紹 [!DNL Experience Manager] 案頭應用程式](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) （5分鐘43秒）。
+>* [使用 [!DNL Experience Manager] 案頭應用程式](use-app-v1.md)。
+>* [疑難排解 [!DNL Experience Manager] 案頭應用程式](troubleshoot-app-v1.md)。
