@@ -61,9 +61,9 @@ Assets API中的複製和移動方法需要下列額外的標頭才能傳遞至[
 * X深
 * X覆寫
 
-[!DNL Experience Manager]案頭使用包含預設連線埠的URL連線至[!DNL Experience Manager]。 因此，Dispatcher設定中的`virtualhosts`設定應包含預設連線埠號碼。 如需`virtualhosts`組態的詳細資訊，請參閱[識別虛擬主機](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
+[!DNL Experience Manager]案頭使用包含預設連線埠的URL連線至[!DNL Experience Manager]。 因此，Dispatcher設定中的`virtualhosts`設定應包含預設連線埠號碼。 如需`virtualhosts`組態的詳細資訊，請參閱[識別虛擬主機](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
 
-如需設定Dispatcher以傳遞這些額外標頭的詳細資訊，請參閱[指定HTTP標頭](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
+如需設定Dispatcher以傳遞這些額外標頭的詳細資訊，請參閱[指定HTTP標頭](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
 
 ### Proxy支援 {#proxy-support}
 
@@ -127,6 +127,6 @@ Assets API中的複製和移動方法需要下列額外的標頭才能傳遞至[
 
 >[!MORELIKETHIS]
 >
->* 觀看[介紹 [!DNL Experience Manager] 案頭應用程式](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) （5分鐘43秒）。
+>* 觀看[介紹 [!DNL Experience Manager] 案頭應用程式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) （5分鐘43秒）。
 >* [使用 [!DNL Experience Manager] 案頭應用程式](use-app-v1.md)。
 >* [疑難排解 [!DNL Experience Manager] 案頭應用程式](troubleshoot-app-v1.md)。

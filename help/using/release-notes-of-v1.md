@@ -417,7 +417,7 @@ AEM案頭應用程式的掛接點在1.4和1.5版中有所變更。在macOS上，
 
 ## 實用資源 {#helpful-resources}
 
-* [AEM檔案](https://experienceleague.adobe.com/en/docs)
+* [AEM檔案](https://experienceleague.adobe.com/zh-hant/docs)
 * [使用AEM案頭應用程式v1.x](use-app-v1.md)
 * [AEM案頭應用程式v1.x最佳作法](best-practices-for-v1.md)
 

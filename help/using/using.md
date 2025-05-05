@@ -134,7 +134,7 @@ ht-degree: 0%
 
 ![顯示資產的檔案動作](assets/revealfile_action_da2.png "顯示資產的檔案動作")
 
-按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
+按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;動作會開啟本機網路共用。 它只會顯示本機可用的資產。 也就是說，會顯示使用應用程式揭露、下載或開啟/編輯的資產。 本機網路共用沒有上傳任何變更到[!DNL Experience Manager]。 若要上傳變更，請明確使用應用程式中的&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;動作。
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 * 您已開始編輯資產，但未先將資產出庫（例如，直接開啟資產）。
 * 您打算儘快開始編輯資產，不希望其他人編輯。
 
-完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
+完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
 
 ![在應用程式中上傳變更選項](assets/upload_changes_single1_da2.png "在應用程式中上傳變更選項")
 
@@ -297,7 +297,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ### 已轉移資產的清單 {#list-of-transferred-assets}
 
@@ -366,7 +366,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 若要使用影像資產和InDesign來嘗試此工作流程，請遵循下列步驟：
 
-1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
+1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
 1. 從案頭應用程式內，**[!UICONTROL Edit]**&#x200B;在[!DNL Experience Manager]中置入資產的INDD檔案。
 1. 應用程式會下載InDesign檔案和連結的資產。 當InDesign開啟檔案時，會解析連結、下載資產，且資產會顯示在InDesign檔案中。
 1. 若要在InDesign檔案中置入新圖形，請使用資產上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;動作。 此動作會在本機下載資產，並在Windows檔案總管或Mac Finder中開啟本機網路共用位置。
