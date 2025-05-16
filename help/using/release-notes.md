@@ -4,39 +4,48 @@ description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+source-git-commit: b5dace65444ca15d09ec8648deb4c262415f40cf
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 10%
 
 ---
 
 # [!DNL Adobe Experience Manager]案頭應用程式發行說明 {#release-notes-v2}
 
-最新案頭應用程式2.3.1版的發行資訊如下。 發行日期為2024年7月25日。
+最新案頭應用程式2.3.3版的發行資訊如下。 發行日期為2025年5月16日。
 
 最新版本的案頭應用程式包含下列錯誤修正和增強功能：
 
-* 新的Enterprise Windows Installer會在「程式檔」下安裝應用程式。
-* 在AEM和SSO登入期間支援&#x200B;**基本驗證**。
-* 上傳作業期間允許的可設定資產數量。
+* 您可以從本機電腦將新建立的資產上傳到AEM （儲存中央存放庫），然後在您的案頭應用程式中檢視這些資產。
+* 自動重新整理功能會自動即時更新內容，確保您一律看到最新資訊，不會手動重新載入頁面及取得已更新資產的清單。
+* 釘選或取消釘選資料夾功能可讓您釘選重要資料夾，或是在不再需要重要資料夾時取消釘選以取消釘選檢視，讓這些資料夾保持可存取性。
+* 重新命名標題功能可讓您輕鬆更新或修改資產的標題，協助您隨著內容發展保持名稱正確且井然有序。
+* 您可以保留原始檔案，並使用複製檔案作業在本機和雲端位置之間複製檔案，以變更類似檔案。
+* 簽入和簽出功能可讓您鎖定檔案進行編輯（簽出）並儲存您的變更，同時讓其他人可以使用此檔案（簽入），以管理檔案存取。
+* 您可以檢視、下載和瀏覽集合。
+* 您可以在建立新資料夾時指派中繼資料。
 
 **支援的[!DNL Experience Manager]版本**&#x200B;為：
 
 * [!DNL Experience Manager]作為[!DNL Cloud Service]。 請參閱[發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/home)。
-* [!DNL Experience Manager] 6.5.0或更新版本，位於AdobeManaged Services (AMS)或內部部署。 請參閱[Service Pack發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)。
+* [!DNL Experience Manager] 6.5.0或更新版本，在Adobe Managed Services (AMS)或內部部署上。 請參閱[Service Pack發行說明](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/release-notes/release-notes)。
 
 [!DNL Adobe Experience Manager]案頭應用程式可用於下列&#x200B;**作業系統**：
 
 * macOS X 10.14或更新版本，提供最新的錯誤修正。
 * Windows 10搭配最新的Service Pack與錯誤修正。
 
-AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝程式。 基礎安裝程式會將AEM案頭應用程式安裝在使用者的本機應用程式資料目錄下。 Adobe為其大部分使用者建議此安裝程式。 也可以使用Enterprise Windows安裝程式，將AEM案頭應用程式安裝在共用程式檔案目錄下。 這兩種安裝程式會安裝相同版本的AEM案頭應用程式，且功能上沒有任何差異。
+AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝程式。 基礎安裝程式會將AEM案頭應用程式安裝在使用者的本機「應用程式資料」目錄下。 Adobe建議大部分使用者使用此安裝程式。 也可以使用Enterprise Windows安裝程式，將AEM案頭應用程式安裝在共用程式檔案目錄下。 這兩種安裝程式會安裝相同版本的AEM案頭應用程式，且功能上沒有任何差異。
 
 支援作業系統的&#x200B;**下載URL**&#x200B;為：
 
 | 作業系統 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.3.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
+| macOS Apple Silicon (M1) (v2.3.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
+| Windows 64位元(v2.3.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |
+| Windows 64位元Enterprise (v2.3.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) |
 | macOS (v2.3.1) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&amp;reserved=0) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&amp;reserved=0) |
 | macOS Apple Silicon (M1) (v2.3.1) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&amp;reserved=0) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&amp;reserved=0) |
 | Windows 64位元(v2.3.1) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&amp;reserved=0) | [下載連結](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&amp;reserved=0) |
@@ -86,6 +95,12 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 ## 新功能、增強功能和錯誤修正 {#what-is-new}
 
 若要瞭解詳細資訊，請參閱[v2.0](introduction.md#whats-new-v2)的新增功能。
+
+**應用程式v2.3.1**&#x200B;中的更新
+
+* 新的Enterprise Windows Installer會在「程式檔」下安裝應用程式。
+* 在AEM和SSO登入期間支援&#x200B;**基本驗證**。
+* 上傳作業期間允許的可設定資產數量
 
 **應用程式v2.3.0**&#x200B;中的更新
 
@@ -165,7 +180,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 錯誤修正和更新包括：
 
-* 現在提供上傳加速設定以提高上傳效能。 開啟此設定時，應用程式會使用更多本機CPU執行緒，以更快的速度上傳，而且會佔用更多資源。
+* 現在提供上傳加速設定以提高上傳效能。 開啟此設定時，應用程式會使用更多本機CPU執行緒，以更快的速度上傳，且耗用更多資源。
 
 * 若檔案名稱或路徑包含特定GB18030字元已固定，則會上傳資產。<!-- CQ-4283494 -->
 
@@ -231,7 +246,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 **CRUD（建立、讀取、更新和刪除）相關問題：**
 
-* 當上傳含有註解的變更至資產時，註解會與資產一併儲存在[!DNL Experience Manager]中，但無法顯示為版本設定註解。 此問題已在[!DNL Experience Manager] 6.4.5和[!DNL Experience Manager] 6.5.1中解決。Adobe建議安裝最新的Service Pack。<!-- CQ-4268990 -->
+* 當上傳含有註解的變更至資產時，註解會與資產一併儲存在[!DNL Experience Manager]中，但無法顯示為版本設定註解。 此問題已在[!DNL Experience Manager] 6.4.5和[!DNL Experience Manager] 6.5.1中解決。Adobe建議您安裝最新的Service Pack。<!-- CQ-4268990 -->
 
 * 使用者無法取消資產傳輸。 如果您不小心觸發了非預期的大量傳輸，請退出應用程式並重新啟動。<!-- CQ-4278940 -->
 
