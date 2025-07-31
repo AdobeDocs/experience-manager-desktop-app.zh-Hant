@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ![顯示資產的檔案動作](assets/revealfile_action_da2.png "顯示資產的檔案動作")
 
-按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
+按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;動作會開啟本機網路共用。 它只會顯示本機可用的資產。 也就是說，會顯示使用應用程式揭露、下載或開啟/編輯的資產。 本機網路共用沒有上傳任何變更到[!DNL Experience Manager]。 若要上傳變更，請明確使用應用程式中的&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;動作。
 
@@ -45,11 +45,11 @@ ht-degree: 1%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 聯絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
