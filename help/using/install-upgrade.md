@@ -3,9 +3,9 @@ title: 安裝及設定案頭應用程式
 description: 安裝並設定 [!DNL Adobe Experience Manager] 案頭應用程式以使用 [!DNL Adobe Experience Manager Assets] 伺服器，並在您的本機檔案系統上下載資產。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 下載並安裝應用程式。 請參閱下方的[安裝案頭應用程式](#install-v2)。
 
-* 使用幾個資產測試連線。 請參閱[如何瀏覽及搜尋資產](using.md#browse-search-preview-assets)。
+* 使用幾個資產測試連線。 請參閱[如何瀏覽及搜尋資產](search.md#browse-search-preview-assets)。
 
 ## 系統需求、必要條件和下載連結 {#tech-specs-v2}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 安裝 {#install-v2}
 
-若要安裝案頭應用程式，請依照下列步驟進行。 請先解除安裝任何現有的Adobe[!DNL Experience Manager]案頭應用程式v1.x，再安裝最新的應用程式。 如需詳細資訊，請參閱上文。
+若要安裝案頭應用程式，請依照下列步驟進行。 請先解除安裝任何現有的Adobe [!DNL Experience Manager]案頭應用程式v1.x，再安裝最新的應用程式。 如需詳細資訊，請參閱上文。
 
 1. 從[發行說明](release-notes.md)頁面下載最新的安裝程式。
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. 如果您要從其他版本的應用程式升級，請參閱[升級案頭應用程式](#upgrade-from-previous-version)。
 
-1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
+1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
 
 1. 執行安裝程式二進位檔，並依照熒幕上的指示進行安裝。
 
-1. 在Windows上，安裝程式可能會提示安裝`Visual Studio C++ Redistributable 2015`。 請依照熒幕上的指示進行安裝。 如果安裝失敗，請手動安裝。 從[這裡](https://www.microsoft.com/en-us/download/details.aspx?id=52685)下載安裝程式，並安裝`vc_redist.x64.exe`和`vc_redist.x86.exe`檔案。 重新執行[!DNL Experience Manager]案頭應用程式安裝程式。
+1. 在Windows上，安裝程式可能會提示安裝`Visual Studio C++ Redistributable 2015`。 請依照熒幕上的指示進行安裝。 如果安裝失敗，請手動安裝。 [下載安裝程式](https://www.microsoft.com/en-us/download/details.aspx?id=52685)並安裝`vc_redist.x64.exe`和`vc_redist.x86.exe`檔案。 重新執行[!DNL Experience Manager]案頭應用程式安裝程式。
 
 1. 根據提示重新啟動電腦。 啟動並設定案頭應用程式。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
    >
    >請確定[!DNL Experience Manager]伺服器的位址之前或之後沒有前置或尾端空格。 否則，應用程式無法連線到[!DNL Experience Manager]伺服器。
 
-1. [選擇性]按一下「**[!UICONTROL I want to connect a different way]**」並按一下「**[!UICONTROL Adobe login]**」以使用Adobe的Experience Manager Assets服務(IMS)登入Identity Management伺服器。 IMS登入可讓案頭應用程式自動執行存取Token重新整理，讓使用者在最多14天內保持登入狀態。 按一下&#x200B;**[!UICONTROL Direct login]**&#x200B;以使用使用者的認證執行標準登入[!DNL Experience Manager]伺服器。
+1. [選擇性]按一下「**[!UICONTROL I want to connect a different way]**」並按一下「**[!UICONTROL Adobe login]**」以使用Adobe Identity Management服務(IMS)登入Experience Manager Assets伺服器。 IMS登入可讓案頭應用程式自動執行存取Token重新整理，讓使用者在最多14天內保持登入狀態。 按一下&#x200B;**[!UICONTROL Direct login]**&#x200B;以使用使用者的認證執行標準登入[!DNL Experience Manager]伺服器。
 
    ![Adobe登入](assets/adobe-login.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    *圖：應用程式在登入後顯示DAM內容*
 
-1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
+1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
 
    如果您是Adobe Managed Services (AMS)客戶，請聯絡Adobe客戶支援。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 若要在Windows上解除安裝應用程式，請執行下列步驟：
 
-1. 將所有變更上傳至[!DNL Experience Manager]以避免遺失任何編輯。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)。 登出並[!UICONTROL Exit]應用程式。
+1. 將所有變更上傳至[!DNL Experience Manager]以避免遺失任何編輯。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets)。 登出並[!UICONTROL Exit]應用程式。
 
 1. 移除應用程式，因為您已移除任何其他作業系統應用程式。 從Windows上的[新增和移除程式]解除安裝。
 
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 若要在Mac上解除安裝應用程式，請遵循下列步驟：
 
-1. 將所有變更上傳至[!DNL Experience Manager]以避免遺失任何編輯。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets)。 登出並[!UICONTROL Exit]應用程式。
+1. 將所有變更上傳至[!DNL Experience Manager]以避免遺失任何編輯。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets)。 登出並[!UICONTROL Exit]應用程式。
 
-1. 從`/Applications`移除`Adobe Experience Manager Desktop.app`。
+1. 從`Adobe Experience Manager Desktop.app`移除`/Applications`。
 
 或者，若要清除Mac上的內部應用程式快取並解除安裝應用程式，您可以在終端機中執行以下命令：
 

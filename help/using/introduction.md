@@ -1,9 +1,9 @@
 ---
 title: ' [!DNL Experience Manager] 案頭應用程式簡介'
-description: 瞭解當創意內容使用者直接從他們的案頭使用 [!DNL Adobe Experience Manager Assets] 時，如何使用 [!DNL Adobe Experience Manager] 案頭應用程式來最佳化他們的資產管理工作流程。
+description: 瞭解當創意內容使用者直接從他們的案頭使用 [!DNL Adobe Experience Manager] 時，如何使用 [!DNL Adobe Experience Manager Assets] 案頭應用程式來最佳化他們的資產管理工作流程。
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 39%
@@ -12,11 +12,11 @@ ht-degree: 39%
 
 # [!DNL Adobe Experience Manager]案頭應用程式總覽 {#overview-v2}
 
-Adobe 在解決方案中提供緊密相連的工作流程，讓您的業務線使用者和創意內容專業人員擁有更高的生產力。[!DNL Adobe Experience Manager]案頭應用程式可連線儲存庫和案頭應用程式(包括Adobe和協力廠商應用程式)，以更快速地存取資源並簡化工作流程。 如此一來，透過案頭工作流程處理[!DNL Adobe Experience Manager]資產的使用者不僅節省時間，而且事半功倍。
+Adobe 在解決方案中提供緊密相連的工作流程，讓您的業務線使用者和創意內容專業人員擁有更高的生產力。[!DNL Adobe Experience Manager]案頭應用程式可連線存放庫和案頭應用程式(包括Adobe和協力廠商應用程式)，以更快速地存取資源並簡化工作流程。 如此一來，透過案頭工作流程處理[!DNL Adobe Experience Manager]資產的使用者不僅節省時間，而且事半功倍。
 
 使用應用程式後，您就可以輕鬆地在本機案頭上存取[!DNL Experience Manager Assets]內的資產，並可在任何案頭應用程式中使用。 您可以在自己選擇的案頭應用程式中開啟及編輯資產。 只有當您上傳變更時，本機編輯內容才會儲存為[!DNL Experience Manager]中的新版本，以在案頭上有效率地編輯進行中的工作。 應用程式支援將資產和巢狀資料夾上傳至[!DNL Experience Manager]，簡化將新內容新增至存放庫的程式。
 
-此整合可讓組織中的不同角色集中管理[!DNL Experience Manager Assets]中的資產。 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。創意內容使用者若擁有專屬的[Adobe資產連結](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)工具，可以存取Adobe Photoshop、Illustrator和InDesign中的資產，也可以存取Creative Cloud和其他原生應用程式中的案頭資產。
+此整合可讓組織中的不同角色集中管理[!DNL Experience Manager Assets]中的資產。 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。使用專用[Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)工具的Creative使用者可以存取Adobe Photoshop、Illustrator和InDesign中的資產，也可以存取Creative Cloud和其他原生應用程式案頭上的資產。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Adobe 在解決方案中提供緊密相連的工作流程，讓您的業務線�
 | 想要瞭解先決條件和技術規格嗎？想要下載連結嗎？ | [發行說明](release-notes.md) |
 | 不是桌面應用程式的新手嗎？升級並想要順利轉換？ | [從舊版升級](install-upgrade.md#upgrade-from-previous-version) |
 | 開始並執行。想要調整預設偏好設定？ | [安裝及設定應用程式](install-upgrade.md) |
-| 瞭解如何瀏覽、探索、編輯、上傳、解決衝突、執行大量作業等。 | [使用 [!DNL Experience Manager] 案頭應用程式](using.md) |
+| 瞭解如何瀏覽、探索、編輯、上傳、解決衝突、執行大量作業等。 | [使用 [!DNL Experience Manager] 案頭應用程式](using-desktop-app.md) |
 | 您遇到問題了嗎？ | [疑難排解 [!DNL Experience Manager] 案頭應用程式](troubleshoot.md) |
 
 ## 應用程式的新增功能 {#whats-new-v2}

@@ -8,20 +8,27 @@ user-guide-description: 了解如何使用 Experience Manager 桌面應用程式
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 59%
+source-wordcount: '85'
+ht-degree: 48%
 
 ---
 
 
-# Adobe案頭應用程式指南 {#using}
+# Adobe Experience Manager案頭應用程式指南 {#get-started}
 
 + [概觀](introduction.md)
 + [發行說明](release-notes.md)
 + [安裝或升級](install-upgrade.md)
-+ [使用應用程式](using.md)
++ [開始使用AEM案頭應用程式](get-started.md)
++ [使用者介面](user-interface.md)
++ [搜尋](search.md)
++ [使用案頭應用程式](using-desktop-app.md)
++ [Assets管理](assets-management-tasks.md)
++ [下載資產](download-assets.md)
++ [上傳資產](upload-assets.md)
++ [使用多個資產](working-with-multiple-assets.md)
 + [疑難排解](troubleshoot.md)
 + 舊版說明 {#archive}
    + [發行說明v1](release-notes-of-v1.md)
