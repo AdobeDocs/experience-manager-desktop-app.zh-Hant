@@ -8,7 +8,7 @@ user-guide-description: 了解如何使用 Experience Manager 桌面應用程式
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
+source-git-commit: cde31207ddb0da1057db15f3fcbeec4dd3d0cd8c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 48%
@@ -16,7 +16,7 @@ ht-degree: 48%
 ---
 
 
-# Adobe Experience Manager案頭應用程式指南 {#get-started}
+# Adobe Experience Manager案頭應用程式指南 {#using}
 
 + [概觀](introduction.md)
 + [發行說明](release-notes.md)
