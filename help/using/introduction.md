@@ -46,6 +46,6 @@ Adobe 在解決方案中提供緊密相連的工作流程，讓您的業務線�
 
 下圖呈現新版應用程式的主要使用案例和性能提升，並搭配客戶歷程顯示。
 
-![ [!DNL Experience Manager]案頭應用程式的新增功能](assets/aem_desktop_app_usecases_v2.png)
+![&#x200B; [!DNL Experience Manager]案頭應用程式的新增功能](assets/aem_desktop_app_usecases_v2.png)
 
 透過案頭應用程式，使用者可完成上述所有使用案例。 如有需要，您也可以選擇在Web介面中探索資產，然後將控制項傳遞至應用程式，以開啟及編輯資產。
