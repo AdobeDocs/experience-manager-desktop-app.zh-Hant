@@ -16,7 +16,7 @@ Adobe 在解決方案中提供緊密相連的工作流程，讓您的業務線�
 
 使用應用程式後，您就可以輕鬆地在本機案頭上存取[!DNL Experience Manager Assets]內的資產，並可在任何案頭應用程式中使用。 您可以在自己選擇的案頭應用程式中開啟及編輯資產。 只有當您上傳變更時，本機編輯內容才會儲存為[!DNL Experience Manager]中的新版本，以在案頭上有效率地編輯進行中的工作。 應用程式支援將資產和巢狀資料夾上傳至[!DNL Experience Manager]，簡化將新內容新增至存放庫的程式。
 
-此整合可讓組織中的不同角色集中管理[!DNL Experience Manager Assets]中的資產。 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。使用專用[Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)工具的Creative使用者可以存取Adobe Photoshop、Illustrator和InDesign中的資產，也可以存取Creative Cloud和其他原生應用程式案頭上的資產。
+此整合可讓組織中的不同角色集中管理[!DNL Experience Manager Assets]中的資產。 行銷人員和商務使用者可確保是否符合各類型的標準，包括品牌推廣和授權等標準在內。使用專用[Adobe Asset Link](https://business.adobe.com/tw/products/experience-manager/assets/adobe-asset-link.html)工具的Creative使用者可以存取Adobe Photoshop、Illustrator和InDesign中的資產，也可以存取Creative Cloud和其他原生應用程式案頭上的資產。
 
 >[!NOTE]
 >
