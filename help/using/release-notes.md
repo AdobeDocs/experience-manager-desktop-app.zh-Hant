@@ -4,67 +4,32 @@ description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
 # [!DNL Adobe Experience Manager]案頭應用程式發行說明 {#release-notes-v2}
 
-最新案頭應用程式3.0.0版的發行資訊如下。 發行日期為2025年7月31日。
+案頭應用程式3.0.1版的發行日期為2025年12月18日。  此版本包含下列增強功能：
 
-此版本提供集合、上傳、簽入/簽出、中繼資料管理和整體可用性的多項增強功能。 這些更新可改善效率、簡化資產處理，並在AEM案頭應用程式中提供更直覺式的即時體驗。
+**更順暢、更可靠的工作流程**
 
-![案頭應用程式使用者介面](assets/dekktop-app-user-interface.png)
+* 已透過修正AEM案頭應用程式與AEM作者之間的同步問題，確保資料夾命名的一致性。
+* 在作用中傳輸作業期間允許完整應用程式功能，以啟用不間斷的工作流程。
+* 改善資料夾屬性頁面的可靠性，以一致方式存取資料夾中繼資料和設定。
 
-**集合**
+**更快且回應更迅速的使用者體驗**
 
-* 您現在可以檢視、下載和瀏覽集合。
+* 將封鎖I/O取代為非同步處理，以增強UI回應能力，於高負載作業期間提供更流暢的體驗。
+* 在上傳和下載流程中引入分頁功能，有效處理大型資料集，進而增強大型檔案傳輸的功能。
 
-* 新增對下載收藏集中可用資料夾的支援。
+**穩定性與可靠性更強**
 
-* 自動同步功能現在可讓收藏集中的下載資產定期將AEM資產管理與本機檔案系統同步。
-
-* 當您更新屬於集合一部分的資產時，系統會自動在暫存快取資料夾和案頭應用程式UI中更新該資產。
-
-**上傳**
-
-* 您可以從本機電腦將新建立的資產上傳到AEM （儲存中央存放庫），然後在您的案頭應用程式中檢視這些資產。
-
-* Desktop App現在會自動識別在本機檔案系統上已下載資料夾中建立的新檔案，並將其上傳至AEM。 案頭應用程式必須保持開啟狀態，才能識別本機檔案系統上的新檔案。
-
-**簽入和簽出**
-
-* 簽入和簽出功能可讓您鎖定檔案進行編輯（簽出）並儲存您的變更，同時讓其他人可以使用此檔案（簽入），以管理檔案存取。
-
-* 將資產從案頭應用程式拖曳至目標Creative Cloud應用程式的功能。 案頭應用程式會自動簽出資產並將其下載到本機檔案系統。
-
-**中繼資料**
-
-* 您可以在建立新資料夾時指派中繼資料。
-
-* Experience Manager案頭應用程式現在可讓您將資產或資料夾移動至新位置，同時保留其中繼資料，協助組織和簡化檔案系統。
-
-* AEM Desktop App現在可讓您檢視資料夾屬性，例如資料夾縮圖、大小、路徑、建立日期、標籤、中繼資料等。
-
-**可用性改善**
-
-
-* 自動重新整理功能會自動即時更新內容，確保您一律看到最新資訊，不會手動重新載入頁面及取得已更新資產的清單。
-
-* 釘選或取消釘選資料夾功能可讓您釘選重要資料夾，或是在不再需要重要資料夾時取消釘選以取消釘選檢視，讓這些資料夾保持可存取性。
-
-* 重新命名標題功能可讓您輕鬆更新或修改資產的標題，協助您隨著內容發展保持名稱正確且井然有序。
-
-* 您可以保留原始檔案，並使用複製檔案作業在本機和雲端位置之間複製檔案，以變更類似檔案。
-
-* 匯出選項現在允許從案頭應用程式下載選取的檔案和資料夾，以平面結構下載到它們的特定目標位置。
-
-* 您現在可以存取卡片檢視、格線檢視或樹狀檢視中的資產，以乾淨、整齊且美觀的資產版面配置。
-
-* UI上會更新各種選項的各種標籤，讓應用程式更直覺。
+* 解決由案頭應用程式互動觸發的製作伺服器重新啟動問題，大幅改善系統穩定性。
+* 已解決在大型資料夾（數千個檔案）下載或上傳期間應用程式當機的問題。
 
 **支援的[!DNL Experience Manager]版本**&#x200B;為：
 
@@ -82,6 +47,10 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 | 作業系統 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows 64位元(v3.0.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows 64位元Enterprise (v3.0.1) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple Silicon (M1) (v3.0.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows 64位元(v3.0.0) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 ## 新功能、增強功能和錯誤修正 {#what-is-new}
 
-若要瞭解詳細資訊，請參閱[v2.0](introduction.md#whats-new-v2)的新增功能。
+如需詳細資訊，請參閱[v3.0.1](introduction.md#whats-new-v2)的新增功能。
 
-**應用程式v2.3.1**&#x200B;中的更新
+### 應用程式v3.0.0中的更新 {#app-version-3.0.0}
+
+此版本提供多種集合、上傳、簽入/簽出、中繼資料管理和整體可用性的增強功能。 這些更新可改善效率、簡化資產處理，並在AEM案頭應用程式中提供更直覺式的即時體驗。
+
+![案頭應用程式使用者介面](assets/dekktop-app-user-interface.png)
+
+**集合**
+
+* 您現在可以檢視、下載和瀏覽集合。
+
+* 新增對下載收藏集中可用資料夾的支援。
+
+* 自動同步功能現在可讓收藏集中的下載資產定期將AEM資產管理與本機檔案系統同步。
+
+* 當您更新屬於集合一部分的資產時，系統會自動在暫存快取資料夾和案頭應用程式UI中更新該資產。
+
+**上傳**
+
+* 您可以從本機電腦將新建立的資產上傳到AEM （儲存中央存放庫），然後在您的案頭應用程式中檢視這些資產。
+
+* Desktop App現在會自動識別在本機檔案系統上已下載資料夾中建立的新檔案，並將其上傳至AEM。 案頭應用程式必須保持開啟狀態，才能識別本機檔案系統上的新檔案。
+
+**簽入和簽出**
+
+* 簽入和簽出功能可讓您鎖定檔案進行編輯（簽出）並儲存您的變更，同時讓其他人可以使用此檔案（簽入），以管理檔案存取。
+
+* 將資產從案頭應用程式拖曳至目標Creative Cloud應用程式的功能。 案頭應用程式會自動簽出資產並將其下載到本機檔案系統。
+
+**後設資料**
+
+* 您可以在建立新資料夾時指派中繼資料。
+
+* Experience Manager案頭應用程式現在可讓您將資產或資料夾移動至新位置，同時保留其中繼資料，協助組織和簡化檔案系統。
+
+* AEM Desktop App現在可讓您檢視資料夾屬性，例如資料夾縮圖、大小、路徑、建立日期、標籤、中繼資料等。
+
+**可用性改善**
+
+* 自動重新整理功能會自動即時更新內容，確保您一律看到最新資訊，不會手動重新載入頁面及取得已更新資產的清單。
+
+* 釘選或取消釘選資料夾功能可讓您釘選重要資料夾，或是在不再需要重要資料夾時取消釘選以取消釘選檢視，讓這些資料夾保持可存取性。
+
+* 重新命名標題功能可讓您輕鬆更新或修改資產的標題，協助您隨著內容發展保持名稱正確且井然有序。
+
+* 您可以保留原始檔案，並使用複製檔案作業在本機和雲端位置之間複製檔案，以變更類似檔案。
+
+* 匯出選項現在允許從案頭應用程式下載選取的檔案和資料夾，以平面結構下載到它們的特定目標位置。
+
+* 您現在可以存取卡片檢視、格線檢視或樹狀檢視中的資產，以乾淨、整齊且美觀的資產版面配置。
+
+* UI上會更新各種選項的各種標籤，讓應用程式更直覺。
+
+### 應用程式v2.3.1更新 {#app-version-2.3.1}
 
 * 新的Enterprise Windows Installer會在「程式檔」下安裝應用程式。
 * 在AEM和SSO登入期間支援&#x200B;**基本驗證**。
 * 上傳作業期間允許的可設定資產數量
 
-**應用程式v2.3.0**&#x200B;中的更新
+### 應用程式v2.3.0中的更新 {#app-version-2.3.0}
 
 * 新增IMS登入支援。 IMS整合可讓案頭應用程式自動執行存取權杖重新整理，讓使用者最多可保持登入14天。
 
 * 改善對公司代理和網頁篩選的支援。
 
-**應用程式v2.2.2**&#x200B;中的更新
+### 應用程式v2.2.2中的更新 {#app-version-2.2.2}
 
 * （僅限Windows）安裝2.2.0和2.2.1發行版本後，案頭應用程式會顯示空白熒幕。
 
-**應用程式v2.2.1**&#x200B;中的更新
+### 應用程式v2.2.1更新 {#app-version-2.2.1}
 
 * 按一下&#x200B;**[!UICONTROL Sign In]**&#x200B;時，案頭應用程式會顯示工作階段逾時錯誤訊息。
 
@@ -164,41 +185,41 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 * 按一下&#x200B;**[!UICONTROL Edited Locally]**&#x200B;排序資產時，案頭應用程式會顯示錯誤訊息。
 
-**應用程式v2.2.0**&#x200B;中的更新
+### 應用程式v2.2.0中的更新 {#app-version-2.2.0}
 
 * 支援Apple矽(M1)。
 
 * 能夠記憶登入案頭應用程式時的連線字串。
 
-**應用程式v2.1.5.0**&#x200B;中的更新
+### 應用程式v2.1.5.0中的更新 {#app-version-2.1.5.0}
 
 * 當您上傳包含中文字元的資料夾中的檔案時，案頭應用程式會停止回應(ASSETS-9237)。
 
-* 案頭應用程式以檔案名稱中的破折號取代點(ASSETS-10955)。
+* 案頭應用程式將檔案名稱中的點替換為破折號(ASSETS-10955)。
 
-**應用程式v2.1.4.0**&#x200B;中的更新
-
-新版應用程式提供錯誤修正。
-
-**應用程式v2.1.3.4**&#x200B;中的更新
+### 應用程式v2.1.4.0中的更新 {#app-version-2.1.4.0}
 
 新版應用程式提供錯誤修正。
 
-**應用程式v2.1.3.3**&#x200B;中的更新
+### 應用程式v2.1.3.4中的更新 {#app-version-2.1.3.4}
 
 新版應用程式提供錯誤修正。
 
-**應用程式v2.1.3.2**&#x200B;中的更新
+### 應用程式v2.1.3.3中的更新 {#app-version-2.1.3.3}
+
+新版應用程式提供錯誤修正。
+
+### 應用程式v2.1.3.2中的更新 {#app-version-2.1.3.2}
 
 此版本的應用程式提供錯誤修正。
 
-**應用程式v2.1.3.1**&#x200B;中的更新
+### 應用程式v2.1.3.1中的更新 {#app-version-2.1.3.1}
 
 此版本修正的錯誤為：
 
 * 即使使用大型資產，資產上傳和下載速度也有所改善。 此版本修正上傳非常大的檔案時，資產透過[!DNL desktop app]上傳有時失敗的問題。
 
-**應用程式更新v2.1.2.0**
+### 應用程式v2.1.2.0中的更新 {#app-version-2.1.2.0}
 
 * [!UICONTROL Clear Cookies]的新選項已新增至應用程式的主功能表。 它有助於解決可能的登入問題，例如將伺服器連線變更為另一個伺服器時。 在連線前先檢視[清除Cookie](/help/using/troubleshoot.md#cannot-login-cookies-issue)。
 
@@ -206,21 +227,21 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
   此行為類似於案頭應用程式版本1中的預設行為。 而在目前版本中，如果未啟用選項，則資料夾名稱中的空格和字元`% ; # , + ? ^ { } "`會取代為資料夾路徑中的破折號。 此外，資料夾路徑中的大寫字元會轉換為小寫。 不過，在檔案名稱中，字元`# % { } ? &`會以破折號取代；但會保留空格與大小寫。 如需詳細資訊，請參閱[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)和[上傳並新增資產](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)。
 
-**應用程式更新v2.1.1.0**
+### 應用程式v2.1.1.0中的更新 {#app-version-2.1.1.0}
 
 * 進階設定可讓應用程式在上傳資料夾時模擬v1.10應用程式行為。 在v1.10中，在存放庫中建立的節點名稱會遵循使用者提供的資料夾名稱空格和大小寫。 在2.1版中，預設行為未變更：資料夾名稱中的多個空格會由存放庫節點名稱中的連字型大小取代，而節點名稱會轉換為小寫。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。
 
-**應用程式更新v2.1.0.0**
+### 應用程式v2.1.0.0中的更新 {#app-version-2.1.0.0}
 
 * 若要上傳資產，使用者現在可以直接從Windows檔案總管或Mac Finder在應用程式的介面上拖曳檔案或資料夾。 除了應用程式中可用的上傳選項外，此程式也可運作。 檢視[上傳資產](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**應用程式更新v2.0.3**
+### 應用程式v2.0.3中的更新 {#app-version-2.0.3}
 
 此版本修正的錯誤為：
 
 * 修正Windows上嘗試存取[!DNL Adobe Experience Manager] 6.5.5.0上DAM存放庫的應用程式使用者登入問題。
 
-**應用程式v2.0.2**&#x200B;中的更新
+### 應用程式v2.0.2中的更新 {#app-version-2.0.2}
 
 錯誤修正和更新包括：
 
@@ -234,7 +255,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 * (Windows)修正某些Windows電腦無法使用應用程式介面的罕見問題。 使用者無法點選應用程式介面，因為介面元素的點選區域向側邊偏移，導致介面看起來扭曲。<!-- CQ-4280785 -->
 
-**應用程式v2.0.1**&#x200B;中的更新
+### 應用程式v2.0.1中的更新 {#app-version-2.0.1}
 
 錯誤修正和更新包括：
 
