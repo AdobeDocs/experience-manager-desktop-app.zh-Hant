@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # [!DNL Adobe Experience Manager]案頭應用程式發行說明 {#release-notes-v2}
 
-案頭應用程式3.0.1版的發行日期為2025年12月18日。  此版本包含下列增強功能：
+案頭應用程式3.0.1版的發行日期為2025年12月20日。  此版本包含下列增強功能：
 
 **更順暢、更可靠的工作流程**
 
