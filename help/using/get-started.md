@@ -3,7 +3,7 @@ title: 開始使用 [!DNL Experience Manager] 案頭應用程式
 description: 瞭解 [!DNL Experience Manager] 案頭應用程式如何透過簡化的工作流程和生產力功能，來強化內容的建立與發佈。
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
+source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 當您在登出後或第一次開啟應用程式時，請以[!DNL Experience Manager]格式提供您`https://[aem-server-url]:[port]/`伺服器的URL。 然後選取[!UICONTROL Connect]選項。 提供認證以將應用程式連線至伺服器。
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
 
 您使用[!DNL Adobe Experience Manager]案頭應用程式執行的主要工作為：
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
