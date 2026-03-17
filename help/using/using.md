@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式，從您�
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 整合可讓組織中的不同角色集中管理[!DNL Experience Manager Assets]中的資產，並在Windows或macOS上的原生應用程式中存取本機案頭上的資產。
 
-當您在登出後或第一次開啟應用程式時，請以[!DNL Experience Manager]格式提供您`https://[aem-server-url]:[port]/`伺服器的URL。 然後選取[!UICONTROL Connect]選項。 提供認證以將應用程式連線至伺服器。
+當您在登出後或第一次開啟應用程式時，請以`https://[aem-server-url]:[port]/`格式提供您[!DNL Experience Manager]伺服器的URL。 然後選取[!UICONTROL Connect]選項。 提供認證以將應用程式連線至伺服器。
 
 您使用[!DNL Adobe Experience Manager]案頭應用程式執行的主要工作為：
 
@@ -119,7 +119,8 @@ ht-degree: 0%
 
 按一下資產功能表中的&#x200B;**[!UICONTROL Open]**。 資產會從本機下載，並以原生應用程式開啟。 檢查狀態列中大型資產的下載進度和傳輸速度。
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 ![顯示資產的檔案動作](assets/revealfile_action_da2.png "顯示資產的檔案動作")
 
-按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
+按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;動作會開啟本機網路共用。 它只會顯示本機可用的資產。 也就是說，會顯示使用應用程式揭露、下載或開啟/編輯的資產。 本機網路共用沒有上傳任何變更到[!DNL Experience Manager]。 若要上傳變更，請明確使用應用程式中的&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;動作。
 
@@ -157,7 +158,7 @@ ht-degree: 0%
 * 您已開始編輯資產，但未先將資產出庫（例如，直接開啟資產）。
 * 您打算儘快開始編輯資產，不希望其他人編輯。
 
-完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
+完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
 
 ![在應用程式中上傳變更選項](assets/upload_changes_single1_da2.png "在應用程式中上傳變更選項")
 
@@ -177,7 +178,8 @@ ht-degree: 0%
 
 使用者可新增資產至DAM存放庫。 例如，您可能是想要從拍照新增大量像片至[!DNL Experience Manager]存放庫的代理攝影師或承包商。 若要新增內容至[!DNL Experience Manager]，請選取應用程式頂端列中的![上傳至雲端選項](assets/do-not-localize/upload_to_cloud_da2.png)。 瀏覽至本機檔案系統中的資產檔案，然後按一下&#x200B;**[!UICONTROL Select]**。 或者，若要上傳資產，請在應用程式介面上拖曳檔案或資料夾。 在Windows上，如果您在應用程式內的資料夾中拖曳資產，資產會上傳至資料夾。 如果上傳時間較長，應用程式會顯示進度列。
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 您可以從您的本機檔案系統上傳資料夾或個別檔案。 資料夾的階層會在上傳時保留。 大量上傳資產之前，請參閱[大量上傳](#bulk-upload-assets)。
@@ -194,13 +196,14 @@ ht-degree: 0%
 
 ### 管理資產名稱中的特殊字元 {#special-characters-in-filename}
 
-在舊版應用程式中，在存放庫中建立的節點名稱會保留使用者提供的資料夾名稱空格和大小寫。 若要讓目前應用程式模擬v1.10應用程式的節點命名規則，請在[!UICONTROL Use legacy conventions when creating nodes for assets and folders]中啟用[!UICONTROL Preferences]。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。 此舊版偏好設定預設為停用。
+在舊版應用程式中，在存放庫中建立的節點名稱會保留使用者提供的資料夾名稱空格和大小寫。 若要讓目前應用程式模擬v1.10應用程式的節點命名規則，請在[!UICONTROL Preferences]中啟用[!UICONTROL Use legacy conventions when creating nodes for assets and folders]。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。 此舊版偏好設定預設為停用。
 
 >[!NOTE]
 >
 >應用程式只會使用下列命名慣例變更存放庫中的節點名稱。 應用程式會保留資產的`Title`不變。
 
-<!-- TBD: Do NOT use this table.
+<!-- 
+TBD: Do NOT use this table.
 
 | Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
 |---|---|---|---|---|
@@ -224,13 +227,15 @@ ht-degree: 0%
 
 ‡字元清單是以空格分隔的清單。
 
-<!-- TBD: Check if the following is to be included in the footnote.
+<!-- 
+TBD: Check if the following is to be included in the footnote.
 
 Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
 -->
 
 
-<!-- TBD: Securing the below presentation of the same content in a comment.
+<!-- 
+TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 
@@ -297,7 +302,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ### 已轉移資產的清單 {#list-of-transferred-assets}
 
@@ -311,7 +316,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 當您嘗試在Assets網頁介面上執行下列動作時，就會使用案頭應用程式功能：
 
-* 允許[!UICONTROL Desktop Actions]、[!UICONTROL Open]和[!UICONTROL Edit]的[!UICONTROL Reveal]
+* 允許[!UICONTROL Open]、[!UICONTROL Edit]和[!UICONTROL Reveal]的[!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] 或 [!UICONTROL check-in]
 
@@ -338,7 +343,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 * 按一下[!UICONTROL Open]不要編輯任何資產。 請勿透過從檔案系統資料夾中開啟來編輯本機下載的資產。 其他使用者不知道資產正在編輯中。
 * 若要編輯資產，請一律按一下[!UICONTROL Edit]。 它會在原生應用程式中開啟資產，並在資產上新增鎖定圖示，讓其他使用者知道資產正在編輯中。
-* 如果您不小心開始編輯而未按一下[!UICONTROL Toggle Check-in]，請按一下[!UICONTROL Edit]。 此功能會將鎖定圖示新增至資產。 即使您計畫稍後編輯資產，但想避免其他人編輯它，請按一下「[!UICONTROL Toggle Check-in]」以鎖定資產。
+* 如果您不小心開始編輯而未按一下[!UICONTROL Edit]，請按一下[!UICONTROL Toggle Check-in]。 此功能會將鎖定圖示新增至資產。 即使您計畫稍後編輯資產，但想避免其他人編輯它，請按一下「[!UICONTROL Toggle Check-in]」以鎖定資產。
 * 在編輯資產之前，請確定其他使用者未編輯該資產。 尋找資產上的鎖定圖示。
 * 完成編輯後，請上傳所有變更，然後入庫資產。
 
@@ -366,7 +371,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 若要使用影像資產和InDesign嘗試此工作流程，請遵循下列步驟：
 
-1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
+1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 1. 從案頭應用程式內，**[!UICONTROL Edit]**&#x200B;在[!DNL Experience Manager]中置入資產的INDD檔案。
 1. 應用程式會下載InDesign檔案和連結的資產。 當InDesign開啟檔案時，連結會得到解析、資產會下載，而資產會顯示在InDesign檔案中。
 1. 若要在InDesign檔案中放置新圖形，請對資產使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;動作。 此動作會在本機下載資產，並在Windows檔案總管或Mac Finder中開啟本機網路共用位置。
@@ -385,4 +390,4 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 當您使用[!UICONTROL Edit]動作編輯原生案頭應用程式中的資產時，如果資產尚未在本機提供，則會下載到本機。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](#edit-assets-upload-updated-assets)。
 
-如果應用程式已安裝並獲准使用，它會在您從[!UICONTROL Desktop Actions]網頁介面使用[!DNL Experience Manager]時完成動作。 應用程式會先下載資產，然後完成動作。
+如果應用程式已安裝並獲准使用，它會在您從[!DNL Experience Manager]網頁介面使用[!UICONTROL Desktop Actions]時完成動作。 應用程式會先下載資產，然後完成動作。

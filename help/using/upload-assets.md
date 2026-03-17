@@ -3,10 +3,10 @@ title: 使用 [!DNL Experience Manager] 案頭應用程式上傳資產
 description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式上傳資產。
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-source-git-commit: db592420ded4d2f7288982a1ea17618484c82537
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * 您已開始編輯資產，但未先將資產出庫（例如，直接開啟資產）。
 * 您打算儘快開始編輯資產，不希望其他人編輯。
 
-完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
+完成編輯後，應用程式會顯示已變更資產的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;狀態。 儲存至資產的所有變更僅在本機進行，直到您將變更上傳至[!DNL Experience Manager]為止。 若要逐一上傳個別或數個資產，請從資產的選項中按一下&#x200B;**[!UICONTROL Upload Changes]**。 它會在[!DNL Experience Manager]中建立資產的版本。 使用[!DNL Assets]的Web介面，您可以在[時間軸檢視](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中看到資產歷史記錄。
 
 ![在應用程式中上傳變更選項](assets/upload_changes_single1_da2.png "在應用程式中上傳變更選項")
 
@@ -45,7 +45,8 @@ ht-degree: 1%
 
 使用者可新增資產至DAM存放庫。 例如，您可能是想要從拍照新增大量像片至[!DNL Experience Manager]存放庫的代理攝影師或承包商。 若要新增內容至[!DNL Experience Manager]，請選取應用程式頂端列中的![上傳至雲端選項](assets/do-not-localize/upload_to_cloud_da2.png)。 瀏覽至本機檔案系統中的資產檔案，然後按一下&#x200B;**[!UICONTROL Select]**。 或者，若要上傳資產，請在應用程式介面上拖曳檔案或資料夾。 在Windows上，如果您在應用程式內的資料夾中拖曳資產，資產會上傳至資料夾。 如果上傳時間較長，應用程式會顯示進度列。
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 您可以從您的本機檔案系統上傳資料夾或個別檔案。 資料夾的階層會在上傳時保留。 大量上傳資產之前，請參閱[大量上傳](#bulk-upload-assets)。
@@ -70,15 +71,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>請勿使用上傳功能跨兩個[!DNL Experience Manager]部署移轉資產。 請參閱[移轉指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

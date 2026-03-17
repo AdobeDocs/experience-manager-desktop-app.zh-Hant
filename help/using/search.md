@@ -2,13 +2,13 @@
 title: 在[!DNL Experience Manager]案頭應用程式中瀏覽、搜尋及預覽資產
 description: 在 [!DNL Adobe Experience Manager] 案頭應用程式中瀏覽、搜尋及預覽資產。
 feature: Desktop App
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 0%
+source-wordcount: '928'
+ht-degree: 1%
 
 ---
-
 
 # 瀏覽、搜尋和預覽資產 {#browse-search-preview-assets}
 
@@ -39,7 +39,8 @@ ht-degree: 0%
 
 按一下資產功能表中的&#x200B;**[!UICONTROL Open]**。 資產會從本機下載，並以原生應用程式開啟。 檢查狀態列中大型資產的下載進度和傳輸速度。
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 ![顯示資產的檔案動作](assets/revealfile_action_da2.png "顯示資產的檔案動作")
 
-按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
+按一下資料夾上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本機電腦上預先選取的檔案或資料夾開啟Windows檔案總管或Mac Finder。 例如，在支援放置或連結本機檔案的原生應用程式中放置[!DNL Experience Manager]檔案時，選項很有用。 若要瞭解如何在Adobe InDesign中放置檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;動作會開啟本機網路共用。 它只會顯示本機可用的資產。 也就是說，會顯示使用應用程式揭露、下載或開啟/編輯的資產。 本機網路共用沒有上傳任何變更到[!DNL Experience Manager]。 若要上傳變更，請明確使用應用程式中的&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;動作。
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 ### 管理資產名稱中的特殊字元 {#special-characters-in-filename}
 
-在舊版應用程式中，在存放庫中建立的節點名稱會保留使用者提供的資料夾名稱空格和大小寫。 若要讓目前應用程式模擬v1.10應用程式的節點命名規則，請在[!UICONTROL Use legacy conventions when creating nodes for assets and folders]中啟用[!UICONTROL Preferences]。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。 此舊版偏好設定預設為停用。
+在舊版應用程式中，在存放庫中建立的節點名稱會保留使用者提供的資料夾名稱空格和大小寫。 若要讓目前應用程式模擬v1.10應用程式的節點命名規則，請在[!UICONTROL Preferences]中啟用[!UICONTROL Use legacy conventions when creating nodes for assets and folders]。 檢視[應用程式偏好設定](/help/using/install-upgrade.md#set-preferences)。 此舊版偏好設定預設為停用。
 
 >[!NOTE]
 >
@@ -92,11 +93,11 @@ ht-degree: 0%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 使用 [!DNL Experience Manager] 案頭應用程式1.10版。
 description: 瞭解如何使用Adobe Experience Manager案頭應用程式1.10版，並使用案頭上的資產最佳化您的工作。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 安裝應用程式 {#installapp}
 
-確認應用程式支援您版本的Experience Manager伺服器，以便使用Experience Manager案頭應用程式。 下載適用於您作業系統(Mac或Windows)的安裝檔案（二進位檔），然後安裝應用程式。
+確認應用程式支援您版本的Experience Manager伺服器，以便使用Experience Manager案頭應用程式。 下載適用於您作業系統（Mac或Windows）的安裝檔案（二進位檔），然後安裝應用程式。
 
 視您的網路和系統偏好設定而定，可能需要詳細設定。 如需詳細資訊，請參閱[安裝及設定 [!DNL Experience Manager] 案頭應用程式](install-configure-app-v1.md)。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe建議您移至Mac上的[尋找器檢視選項]並停用選項&#x200B;**顯示專案資訊**、**顯示專案預覽**&#x200B;以及已掛接的[!DNL Assets]資料夾的&#x200B;**顯示預覽資料行**。 這可改善效能。
+>Adobe建議您前往Mac上的「尋找器檢視選項」，並停用已掛載[!DNL Assets]資料夾的選項&#x200B;**「顯示專案資訊**」、**「顯示專案預覽**」和&#x200B;**「顯示預覽資料行**」。 這可改善效能。
 
 ### [!DNL Experience Manager]介面中的其他選項 {#additional-options-in-aem-assets}
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 ## 瞭解資產狀態 {#understand-the-asset-statuses}
 
 | ![Windows預設應用程式圖示](assets/do-not-localize/win_default.png) | 應用程式已連線至伺服器，且所有資產都已同步。 |
---- |--- |
+| --- |--- |
 | ![Windows已停用的圖示](assets/do-not-localize/win_disabled.png) | 應用程式已啟動，但未連線至伺服器。 某些資產可能正在等候同步處理。 |
 | ![Windows檔案同步處理圖示](assets/do-not-localize/win_sync.png) | Assets正在同步處理。 檔案正在上傳或下載。 您可以從「資產狀態」視窗檢視確切的狀態並暫停傳輸。 |
 | ![Windows重新連線圖示](assets/do-not-localize/win_refresh.png) | 應用程式正在嘗試重新連線。 網路問題可能會導致其中斷連線。 |
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]可讓您簽出要編輯的資產，並在完成變更後重新簽入。 出庫資產後，只有您可以編輯、註釋、發佈、移動或刪除資產。 將資產出庫會鎖定資產，並防止其他使用者執行任何這些操作。 若要能夠簽出/簽入資產，您需要這些資產的寫入許可權。
 
-有兩種方式可從[!DNL Experience Manager]網頁介面簽出資產。 如需第一個方法的詳細資訊，請參閱Assets UI[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)中的簽入和簽出檔案。 請依照這些步驟執行第二個方法，以便在安裝[!DNL Experience Manager]案頭應用程式時取出並開啟資產。
+有兩種方式可從[!DNL Experience Manager]網頁介面簽出資產。 如需第一個方法的詳細資訊，請參閱Assets UI](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)中的[簽入和簽出檔案。 請依照這些步驟執行第二個方法，以便在安裝[!DNL Experience Manager]案頭應用程式時取出並開啟資產。
 
 1. 開啟[!DNL Assets]介面並將指標暫留在資料夾或資產上，以將案頭動作顯示為卡片檢視中的快速動作。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 1. 資料夾上傳後，關閉對話方塊並導覽至Assets UI。 上傳的資料夾會顯示在網頁介面中。
 
-Adobe不建議從本機檔案系統複製貼上或拖曳大量檔案或巢狀資料夾至網路共用區域。 由於技術限制和效能不佳，應用程式無法控制上傳程式。
+Adobe不建議從本機檔案系統複製貼上或將大量檔案或巢狀資料夾拖曳至網路共用區域。 由於技術限制和效能不佳，應用程式無法控制上傳程式。
 
 或者，在Finder或Explorer中選取檔案/資料夾、複製檔案/資料夾、導覽至網路共用區域中的目標資料夾，然後從[!DNL Experience Manager]案頭應用程式內容功能表中選擇「貼上Assets **」。**&#x200B;如此一來，[!DNL Experience Manager]案頭應用程式就會開始上傳貼上的資產，類似於[!DNL Experience Manager]網頁介面中可用的&#x200B;**上傳資料夾**&#x200B;選項。
 
