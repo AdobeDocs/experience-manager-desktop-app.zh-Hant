@@ -5,7 +5,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 mini-toc-levels: 1
-git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
+git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.zh-Hant
 index: true
 recommendations: noDisplay
 source-git-commit: 72252847223b5f9a25a66a151bb23cb39d8f164b
