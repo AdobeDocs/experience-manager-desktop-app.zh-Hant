@@ -1,16 +1,17 @@
 ---
 cloud: Experience Cloud
 solution: Experience Manager, Experience Manager Assets
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8id: d09181b5-a36a-43de-ba01-36641440bc43
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 mini-toc-levels: 1
-git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.zh-Hant
+git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
 index: true
 recommendations: noDisplay
-source-git-commit: 72252847223b5f9a25a66a151bb23cb39d8f164b
+source-git-commit: 5e413c18ccd1a1602e40521e147730f49f237886
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 4%
 
 ---
