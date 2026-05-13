@@ -78,7 +78,7 @@ AEM案頭應用程式的關鍵功能包括：
 
 * 請勿經常使用AEM案頭應用程式網路磁碟機來儲存資產。 所有儲存操作都會傳輸至AEM Assets。 因此，直接在掛接的AEM Assets存放庫中執行大量編輯作業是不切實際的。 直接在掛接的存放庫中編輯資產時，會使用不相關的版本卡住資產的時間軸，並在伺服器上施加額外的經常性費用。
 
-* 請勿使用AEM案頭應用程式將大量資料從一個AEM執行個體移轉至另一個執行個體。 請參閱[移轉指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以規劃及執行資產移轉。 相反地，案頭應用程式[在[!DNL Adobe Experience Manager]中首次支援大量上傳](use-app-v1.md#bulkupload)大量資產。
+* 請勿使用AEM案頭應用程式將大量資料從一個AEM執行個體移轉至另一個執行個體。 請參閱[移轉指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以規劃及執行資產移轉。 相反地，案頭應用程式[在[!DNL Adobe Experience Manager]中首次支援大量上傳](use-app-v1.md#bulkupload)大量資產。
 
 ## 選定使用案例的建議 {#recommendations-for-selected-use-cases}
 
@@ -134,7 +134,7 @@ AEM案頭應用程式的良好使用者體驗仰賴穩定的網路連線和調�
 
 ### 網路考量事項 {#network-considerations}
 
-若要瞭解AEM Assets網路組態的最佳實務，請前往[如何大量移轉資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)檔案。 協助使用者最佳化AEM案頭應用程式體驗的部分重要方面包括：
+若要瞭解AEM Assets網路組態的最佳實務，請前往[如何大量移轉資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)檔案。 協助使用者最佳化AEM案頭應用程式體驗的部分重要方面包括：
 
 * **使用正確設定的Dispatcher**。 使用AEM Dispatcher以獲得額外的安全性，並確保它已設定為可在Dispatcher[&#128279;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)後連線至AEM的AEM案頭應用程式
 
@@ -146,8 +146,8 @@ AEM案頭應用程式的良好使用者體驗仰賴穩定的網路連線和調�
 
 ### 最佳化伺服器效能 {#optimizing-server-performance}
 
-若要瞭解AEM Assets伺服器應該如何最佳化效能，請前往[AEM Assets效能調整指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM案頭應用程式伺服器效能的一些重要方面，與最佳化工作流程設定相關，使其可妥善執行資產上傳：
+若要瞭解AEM Assets伺服器應該如何最佳化效能，請前往[AEM Assets效能調整指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM案頭應用程式伺服器效能的一些重要方面，與最佳化工作流程設定相關，使其可妥善執行資產上傳：
 
-* **更多效能的資產上傳**。 將[AEM資產更新工作流程模型設定為暫時性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
+* **更多效能的資產上傳**。 將[AEM資產更新工作流程模型設定為暫時性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
 
 * **限制伺服器CPU的上傳**。 請確定最大平行工作流程作業引數已正確設定，這樣上傳就不會耗盡所有CPU。
