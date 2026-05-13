@@ -3,9 +3,14 @@ title: 使用 [!DNL Experience Manager] 案頭應用程式1.10版。
 description: 瞭解如何使用Adobe Experience Manager案頭應用程式1.10版，並使用案頭上的資產最佳化您的工作。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: 2358
 ht-degree: 0%
 
 ---
@@ -156,7 +161,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]可讓您簽出要編輯的資產，並在完成變更後重新簽入。 出庫資產後，只有您可以編輯、註釋、發佈、移動或刪除資產。 將資產出庫會鎖定資產，並防止其他使用者執行任何這些操作。 若要能夠簽出/簽入資產，您需要這些資產的寫入許可權。
 
-有兩種方式可從[!DNL Experience Manager]網頁介面簽出資產。 如需第一個方法的詳細資訊，請參閱Assets UI[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)中的簽入和簽出檔案。 請依照這些步驟執行第二個方法，以便在安裝[!DNL Experience Manager]案頭應用程式時取出並開啟資產。
+有兩種方式可從[!DNL Experience Manager]網頁介面簽出資產。 如需第一個方法的詳細資訊，請參閱Assets UI](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)中的[簽入和簽出檔案。 請依照這些步驟執行第二個方法，以便在安裝[!DNL Experience Manager]案頭應用程式時取出並開啟資產。
 
 1. 開啟[!DNL Assets]介面並將指標暫留在資料夾或資產上，以將案頭動作顯示為卡片檢視中的快速動作。
 

@@ -2,9 +2,15 @@
 title: ' [!DNL Adobe Experience Manager] 案頭應用程式的最佳實務及疑難排解'
 description: 遵循最佳實務和疑難排解以解決與安裝、升級、設定等相關的偶然問題。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -15,13 +21,13 @@ ht-degree: 0%
 
 請閱讀下文，針對應用程式進行疑難排解，瞭解最佳實務，並找出限制。
 
-## 最佳實務 {#best-practices-to-prevent-troubles}
+## 最佳做法 {#best-practices-to-prevent-troubles}
 
 請遵循以下最佳實務，以防止一些常見問題和疑難排解。
 
 * **瞭解案頭應用程式的運作方式**：開始使用應用程式之前，請先花點時間瞭解應用程式的運作方式。 瞭解[!DNL Experience Manager]網頁介面與案頭之間的連結、存放庫對應、資產快取、本機儲存和背景上傳。 檢視[運作方式](release-notes.md#how-app-works)。
 
-* **避免資料夾名稱中有不支援的字元**：建立或上傳資料夾時，請勿使用空格和無效的字元。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中建立資料夾，檢視字元清單。 資料夾名稱中不支援的字元可能會影響某些[!DNL Experience Manager]使用案例。
+* **避免資料夾名稱中有不支援的字元**：建立或上傳資料夾時，請勿使用空格和無效的字元。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中建立資料夾，檢視字元清單。 資料夾名稱中不支援的字元可能會影響某些[!DNL Experience Manager]使用案例。
 
 * **避免衝突的最佳實務**：若要避免在多個資產上共同作業時可能發生的衝突，請移至[避免編輯衝突](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)。
 
@@ -157,7 +163,7 @@ ht-degree: 0%
 
 * 磁碟機代號一致性。 如果您或其他共同作業人員在將[!DNL Experience Manager] DAM對應至其他磁碟機代號時放置資產，則放置的資產不會顯示。
 
-* 權限。若要檢查您是否擁有擷取置入資產的許可權，請連絡您的[!DNL Experience Manager]管理員。
+* 權限。 若要檢查您是否擁有擷取置入資產的許可權，請連絡您的[!DNL Experience Manager]管理員。
 
 ### 對案頭應用程式使用者介面上檔案的編輯不會立即在[!DNL Adobe Experience Manager]中反映 {#changes-on-da-not-visible-on-aem}
 
@@ -301,8 +307,8 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 從[!DNL Experience Manager]使用者介面瀏覽資產時，不會顯示過期的資產。 管理員可設定設定，以防止在從案頭應用程式和Asset Link瀏覽時檢視、搜尋和擷取已到期資產。 這麼做可確保這些作業期間不會存取過期的資產。 此設定適用於所有使用者，無論管理員許可權為何。
 
-* 在Experience Manager 6.5中設定[以隱藏過期的資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
-* 在Experience Manager as a Cloud Service中設定[以隱藏過期的資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
+* 在Experience Manager 6.5中設定[以隱藏過期的資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
+* 在Experience Manager as a Cloud Service中設定[以隱藏過期的資產](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

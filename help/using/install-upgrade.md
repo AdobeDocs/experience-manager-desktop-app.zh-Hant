@@ -3,9 +3,14 @@ title: 安裝及設定案頭應用程式
 description: 安裝並設定 [!DNL Adobe Experience Manager] 案頭應用程式以使用 [!DNL Adobe Experience Manager Assets] 伺服器，並在您的本機檔案系統上下載資產。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 1. 如果您要從其他版本的應用程式升級，請參閱[升級案頭應用程式](#upgrade-from-previous-version)。
 
-1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
+1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
 
 1. 執行安裝程式二進位檔，並依照熒幕上的指示進行安裝。
 
@@ -92,7 +97,7 @@ ht-degree: 0%
 
    *圖：應用程式在登入後顯示DAM內容*
 
-1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
+1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
 
    如果您是Adobe Managed Services (AMS)客戶，請聯絡Adobe客戶支援。
 
@@ -114,7 +119,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Automatically download linked assets]**：當您下載原始檔案時，系統會自動擷取放置在支援原生Creative Cloud應用程式中的資產。
 
-* **[!UICONTROL Maximum number of downloads]**： ![警告圖示](assets/do-not-localize/caution-icon.png)請謹慎變更。 首次下載資產時（透過「顯示」、「開啟」、「編輯」、「下載」或類似選項），只有當批次包含小於此數字時，才會下載資產。 預設值為 50。如果您不確定，請勿變更。 提高值可能會導致更長的等待時間，而降低值可能會阻止您在一次嘗試中下載所有必要的資產或資料夾。
+* **[!UICONTROL Maximum number of downloads]**： ![警告圖示](assets/do-not-localize/caution-icon.png)請謹慎變更。 首次下載資產時（透過「顯示」、「開啟」、「編輯」、「下載」或類似選項），只有當批次包含小於此數字時，才會下載資產。 預設值為 50。 如果您不確定，請勿變更。 提高值可能會導致更長的等待時間，而降低值可能會阻止您在一次嘗試中下載所有必要的資產或資料夾。
 
 * **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**： ![警告圖示](assets/do-not-localize/caution-icon.png)請謹慎變更。 此設定可讓應用程式在上傳資料夾時模擬v1.10應用程式行為。 在v1.10中，在存放庫中建立的節點名稱會遵循使用者提供的資料夾名稱空格和大小寫。 不過，在應用程式v2.1中，資料夾名稱中的額外空格會轉換為破折號。 例如，如果未選取選項，且保留v2.1中的預設行為，則上傳`New Folder`或`new   folder`會在存放庫中建立相同的節點。 如果選取此選項，則會在上述兩個資料夾的存放庫中建立不同的節點，且符合v1.10應用程式的行為。
 
@@ -154,7 +159,7 @@ ht-degree: 0%
 
 1. 將所有變更上傳至[!DNL Experience Manager]以避免遺失任何編輯。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets)。 登出並[!UICONTROL Exit]應用程式。
 
-1. 從`Adobe Experience Manager Desktop.app`移除`/Applications`。
+1. 從`/Applications`移除`Adobe Experience Manager Desktop.app`。
 
 或者，若要清除Mac上的內部應用程式快取並解除安裝應用程式，您可以在終端機中執行以下命令：
 

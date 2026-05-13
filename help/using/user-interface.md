@@ -2,13 +2,17 @@
 title: 使用者介面 [!DNL Experience Manager] 案頭應用程式
 description: 使用者介面 [!DNL Adobe Experience Manager] 案頭應用程式。
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
+TQID: https://experienceleague.adobe.com/AEbEbJbBQI6-HuI7aAf-348pf-qjK1fZfoapY7PYveo
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 7%
+source-wordcount: 499
+ht-degree: 8%
 
 ---
-
 
 # [!DNL Adobe Experience Manager]案頭應用程式的使用者介面 {#user-interface-desktop-app}
 
@@ -125,15 +129,14 @@ ht-degree: 7%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
 >* [在案頭應用程式中管理Assets](/help/using/assets-management-tasks.md)
 >* [下載資產](/help/using/download-assets.md)
 >* [上傳資產](/help/using/upload-assets.md)
-

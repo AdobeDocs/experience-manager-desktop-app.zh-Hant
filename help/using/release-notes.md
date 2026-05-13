@@ -4,10 +4,14 @@ description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
+TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '5259'
-ht-degree: 4%
+source-wordcount: 5259
+ht-degree: 5%
 
 ---
 
@@ -281,7 +285,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 請務必瞭解以下關於應用程式及其運作方式的資訊。
 
-* 應用程式可完整控制需要從[!DNL Experience Manager]到完整傳輸資產二進位檔的作業(**開啟**、**編輯**、**上傳變更**&#x200B;和&#x200B;**上傳Assets**)。
+* 應用程式可完整控制需要從[!DNL Experience Manager]到完整傳輸資產二進位檔的作業（**開啟**、**編輯**、**上傳變更**&#x200B;和&#x200B;**上傳Assets**）。
 
    * 如果想要在案頭使用資產，您必須明確地「開啟」、「編輯」或「下載」資產至案頭，並可使用個別檔案、資料夾或多個檔案選取的方式進行上述操作。
 
@@ -295,7 +299,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 * 如果應用程式未顯示預期的結果，請按一下頂端列中的重新整理圖示。
 
-* 當您使用[!UICONTROL Reveal File]動作時顯示的本機網路共用，只會顯示本機可用的檔案（和資料夾）。[!UICONTROL Reveal File] 和[!UICONTROL Reveal Folder]會預先下載資產，協助您取得顯示在區域網路共用中的正確資產。
+* 區域網路共享（在您進行 [!UICONTROL Reveal File] 動作時顯示）只會顯示本機可用的檔案（和資料夾）。 [!UICONTROL Reveal File] 和 [!UICONTROL Reveal Folder] 會預先下載資產，協助您取得顯示在區域網路共享中的正確資產。
 
 * 當Adobe Creative Cloud應用程式讀取連結/置於Creative Cloud應用程式原生檔案中的資產檔案時，會使用SMB (Mac) / WebDAV (Win)本機網路共用。
 
