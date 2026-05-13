@@ -2,13 +2,20 @@
 title: 使用 [!DNL Experience Manager] 案頭應用程式下載資產
 description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式下載資產。
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 1%
+source-wordcount: 436
+ht-degree: 2%
 
 ---
-
 
 # 在本機下載資產 {#download-assets-locally}
 
@@ -28,7 +35,7 @@ ht-degree: 1%
 
 當您使用[!UICONTROL Edit]動作編輯原生案頭應用程式中的資產時，如果資產尚未在本機提供，則會下載到本機。 檢視[編輯資產並將更新的資產上傳到 [!DNL Experience Manager]](#edit-assets-upload-updated-assets)。
 
-如果應用程式已安裝並獲准使用，它會在您從[!UICONTROL Desktop Actions]網頁介面使用[!DNL Experience Manager]時完成動作。 應用程式會先下載資產，然後完成動作。
+如果應用程式已安裝並獲准使用，它會在您從[!DNL Experience Manager]網頁介面使用[!UICONTROL Desktop Actions]時完成動作。 應用程式會先下載資產，然後完成動作。
 
 ## 下載多個資產 {#download-multiple-assets}
 
@@ -51,4 +58,3 @@ ht-degree: 1%
 >* [上傳資產](/help/using/upload-assets.md)
 >* [瞭解使用者介面](/help/using/user-interface.md)
 >* [搜尋](/help/using/search.md)
-

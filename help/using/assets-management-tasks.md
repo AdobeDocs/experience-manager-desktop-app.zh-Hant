@@ -2,13 +2,22 @@
 title: 使用 [!DNL Experience Manager] 案頭應用程式
 description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式，從您的Win或Mac案頭直接使用 [!DNL Adobe Experience Manager] DAM資產，並用於其他應用程式。
 feature: Desktop App,Asset Management
-source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
+exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
+TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 0%
+source-wordcount: 1438
+ht-degree: 1%
 
 ---
-
 
 # [!DNL AEM Desktop App]中的Assets管理任務 {#assets-management-tasks}
 
@@ -123,7 +132,7 @@ AEM案頭應用程式可讓您[檢視](#view-collections-desktop-app)、[下載]
 
 * 按一下[!UICONTROL Open]不要編輯任何資產。 請勿透過從檔案系統資料夾中開啟來編輯本機下載的資產。 其他使用者不知道資產正在編輯中。
 * 若要編輯資產，請一律按一下[!UICONTROL Edit]。 它會在原生應用程式中開啟資產，並在資產上新增鎖定圖示，讓其他使用者知道資產正在編輯中。
-* 如果您不小心開始編輯而未按一下[!UICONTROL Toggle Check-in]，請按一下[!UICONTROL Edit]。 此功能會將鎖定圖示新增至資產。 即使您計畫稍後編輯資產，但想避免其他人編輯它，請按一下「[!UICONTROL Toggle Check-in]」以鎖定資產。
+* 如果您不小心開始編輯而未按一下[!UICONTROL Edit]，請按一下[!UICONTROL Toggle Check-in]。 此功能會將鎖定圖示新增至資產。 即使您計畫稍後編輯資產，但想避免其他人編輯它，請按一下「[!UICONTROL Toggle Check-in]」以鎖定資產。
 * 在編輯資產之前，請確定其他使用者未編輯該資產。 尋找資產上的鎖定圖示。
 * 完成編輯後，請上傳所有變更，然後入庫資產。
 
@@ -164,7 +173,7 @@ AEM案頭應用程式可讓您[檢視](#view-collections-desktop-app)、[下載]
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 連絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 聯絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
 
 <!--* Provide product feedback using the [!UICONTROL Feedback] option available on the AEM Desktop App user interface>-->
 

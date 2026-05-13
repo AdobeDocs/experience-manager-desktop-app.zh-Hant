@@ -3,9 +3,16 @@ title: 使用 [!DNL Experience Manager] 案頭應用程式
 description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式。
 feature: Desktop App,Asset Management
 exl-id: cb5e4738-5695-4758-8322-37509421dfc8
-source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
+TQID: https://experienceleague.adobe.com/0xzk1jHHzvUk5J8Vq4KG-CbRCBfO4owT6xLhzPJs9Mw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 450
 ht-degree: 2%
 
 ---

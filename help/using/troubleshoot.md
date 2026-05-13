@@ -2,9 +2,25 @@
 title: ' [!DNL Adobe Experience Manager] 案頭應用程式的最佳實務及疑難排解'
 description: 遵循最佳實務和疑難排解以解決與安裝、升級、設定等相關的偶然問題。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -15,7 +31,7 @@ ht-degree: 0%
 
 請閱讀下文，針對應用程式進行疑難排解，瞭解最佳實務，並找出限制。
 
-## 最佳實務 {#best-practices-to-prevent-troubles}
+## 最佳做法 {#best-practices-to-prevent-troubles}
 
 請遵循以下最佳實務，以防止一些常見問題和疑難排解。
 
@@ -157,7 +173,7 @@ ht-degree: 0%
 
 * 磁碟機代號一致性。 如果您或其他共同作業人員在將[!DNL Experience Manager] DAM對應至其他磁碟機代號時放置資產，則放置的資產不會顯示。
 
-* 權限。若要檢查您是否擁有擷取置入資產的許可權，請連絡您的[!DNL Experience Manager]管理員。
+* 權限。 若要檢查您是否擁有擷取置入資產的許可權，請連絡您的[!DNL Experience Manager]管理員。
 
 ### 對案頭應用程式使用者介面上檔案的編輯不會立即在[!DNL Adobe Experience Manager]中反映 {#changes-on-da-not-visible-on-aem}
 
