@@ -3,11 +3,23 @@ title: 案頭應用程式v1.10發行說明
 description: AEM案頭應用程式1.10版的發行詳細資料、增強功能、新功能、相容性和下載連結。
 exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
 TQID: https://experienceleague.adobe.com/U-YEyQVpGmYW1R-uHmLuBeZDW6acHujDAt0BilDlEvo
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085id: e17747bc-9b7b-44e6-a443-f54229a02620
-subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+  - id: e17747bc-9b7b-44e6-a443-f54229a02620
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 4121

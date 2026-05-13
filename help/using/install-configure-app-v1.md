@@ -3,11 +3,19 @@ title: 安裝及設定案頭應用程式v1.10
 description: 安裝並設定 [!DNL Experience Manager] 案頭應用程式1.10版以搭配 [!DNL Assets] 伺服器使用，並將資產對應為掛載在案頭上的磁碟機。
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -101,7 +109,7 @@ Assets API中的複製和移動方法需要下列額外的標頭才能傳遞至[
 
 ### 管理快取的應用程式內選項 {#in-app-option-to-manage-cache}
 
-您可以控制可用於本機快取的磁碟空間量。 Assets伺服器的成品會快取到本機，以獲得更流暢的體驗。 您可以變更預設值以符合您的需求。 此外，您也可以清除快取，以重新擷取所有資產。 若要設定所要的選項，請按一下應用程式的圖示，然後按一下&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。 ****
+您可以控制可用於本機快取的磁碟空間量。 Assets伺服器的成品會快取到本機，以獲得更流暢的體驗。 您可以變更預設值以符合您的需求。 此外，您也可以清除快取，以重新擷取所有資產。 若要設定所要的選項，請按一下應用程式的圖示，然後按一下&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。 **&#x200B;**
 
 >[!NOTE]
 >
