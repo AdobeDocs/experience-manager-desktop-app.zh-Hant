@@ -3,20 +3,11 @@ title: 案頭應用程式v1.10最佳作法
 description: 主要功能及建議使用 [!DNL Adobe Experience Manager] 案頭應用程式1.10版。
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 TQID: https://experienceleague.adobe.com/5r3NDLi2KQXMNH1s4hxfLlBzqmEisKTynSUFTVANwkU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 1721
@@ -78,7 +69,7 @@ AEM案頭應用程式的關鍵功能包括：
 
 * 請勿經常使用AEM案頭應用程式網路磁碟機來儲存資產。 所有儲存操作都會傳輸至AEM Assets。 因此，直接在掛接的AEM Assets存放庫中執行大量編輯作業是不切實際的。 直接在掛接的存放庫中編輯資產時，會使用不相關的版本卡住資產的時間軸，並在伺服器上施加額外的經常性費用。
 
-* 請勿使用AEM案頭應用程式將大量資料從一個AEM執行個體移轉至另一個執行個體。 請參閱[移轉指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以規劃及執行資產移轉。 相反地，案頭應用程式[在[!DNL Adobe Experience Manager]中首次支援大量上傳](use-app-v1.md#bulkupload)大量資產。
+* 請勿使用AEM案頭應用程式將大量資料從一個AEM執行個體移轉至另一個執行個體。 請參閱[移轉指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以規劃及執行資產移轉。 相反地，案頭應用程式[在[!DNL Adobe Experience Manager]中首次支援大量上傳](use-app-v1.md#bulkupload)大量資產。
 
 ## 選定使用案例的建議 {#recommendations-for-selected-use-cases}
 
@@ -134,9 +125,9 @@ AEM案頭應用程式的良好使用者體驗仰賴穩定的網路連線和調�
 
 ### 網路考量事項 {#network-considerations}
 
-若要瞭解AEM Assets網路組態的最佳實務，請前往[如何大量移轉資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/assets-migration-guide)檔案。 協助使用者最佳化AEM案頭應用程式體驗的部分重要方面包括：
+若要瞭解AEM Assets網路組態的最佳實務，請前往[如何大量移轉資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)檔案。 協助使用者最佳化AEM案頭應用程式體驗的部分重要方面包括：
 
-* **使用正確設定的Dispatcher**。 使用AEM Dispatcher以獲得額外的安全性，並確保它已設定為可在Dispatcher[&#128279;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)後連線至AEM的AEM案頭應用程式
+* **使用正確設定的Dispatcher**。 使用AEM Dispatcher以獲得額外的安全性，並確保它已設定為可在Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)後連線至AEM的[AEM案頭應用程式
 
 * **儲存頻寬**。 使用Finder瀏覽已裝載的存放庫時，請考慮關閉Mac上Finder中的圖示預覽。 搜尋器會要求每個檔案產生預覽，並讓案頭應用程式下載資產並在本機快取。 在節省頻寬的同時，也會減少桌上型電腦使用者的使用者體驗，因此在使用大型資產或頻寬受限的存放庫時，就應該這麼做。
 
@@ -146,8 +137,8 @@ AEM案頭應用程式的良好使用者體驗仰賴穩定的網路連線和調�
 
 ### 最佳化伺服器效能 {#optimizing-server-performance}
 
-若要瞭解AEM Assets伺服器應該如何最佳化效能，請前往[AEM Assets效能調整指南](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM案頭應用程式伺服器效能的一些重要方面，與最佳化工作流程設定相關，使其可妥善執行資產上傳：
+若要瞭解AEM Assets伺服器應該如何最佳化效能，請前往[AEM Assets效能調整指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM案頭應用程式伺服器效能的一些重要方面，與最佳化工作流程設定相關，使其可妥善執行資產上傳：
 
-* **更多效能的資產上傳**。 將[AEM資產更新工作流程模型設定為暫時性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
+* **更多效能的資產上傳**。 將[AEM資產更新工作流程模型設定為暫時性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
 
 * **限制伺服器CPU的上傳**。 請確定最大平行工作流程作業引數已正確設定，這樣上傳就不會耗盡所有CPU。
