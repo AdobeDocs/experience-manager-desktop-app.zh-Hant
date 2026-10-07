@@ -1,31 +1,42 @@
 ---
 title: '[!DNL Adobe Experience Manager]案頭應用程式發行說明'
-description: ' [!DNL Adobe Experience Manager] 案頭應用程式的發行詳細資料、增強功能、新功能、相容性和下載連結。'
+description: '[!DNL Adobe Experience Manager]案頭應用程式的發行詳細資料、增強功能、新功能、相容性和下載連結。'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Data management
+source-git-commit: d5e89df1c3930b5206efedadef064a2bf0838564
 workflow-type: tm+mt
-source-wordcount: 5259
-ht-degree: 5%
-
+source-wordcount: '5588'
+ht-degree: 4%
 ---
-
 # [!DNL Adobe Experience Manager]案頭應用程式發行說明 {#release-notes-v2}
 
-此案頭應用程式3.0.2版包含錯誤修正，以增強應用程式的整體穩定性和效能。
+此案頭應用程式3.0.3版包含下列增強功能和錯誤修正。
+
+**已改善穩定性和效能**
+* 已改善要求處理，以防止對[!DNL Experience Manager]的過多要求。
+* 提升下載超大型資產時的可靠性。
+* 修正在處理大型檔案時，可能導致案頭應用程式當機或在macOS上無回應的問題。
 
 **支援的[!DNL Experience Manager]版本**&#x200B;為：
 
@@ -43,6 +54,10 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 | 作業系統 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows 64位元(v3.0.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows 64位元Enterprise (v3.0.3) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS (v3.0.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
 | macOS Apple Silicon (M1) (v3.0.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows 64位元(v3.0.2) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [下載連結](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
@@ -87,7 +102,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 ## 支援不同的資產和檔案型別 {#support-for-file-types}
 
-應用程式支援儲存在[!DNL Experience Manager]中的資產，這些資產代表二進位檔案以進行其基本作業。 在原生桌面應用程式中開啟檔案時，需透過作業系統內的特定應用程式（例如 Mac Preview 或 Adobe Photoshop），以特定檔案類型（例如 PNG 或 JPG）開啟。
+應用程式支援儲存在[!DNL Experience Manager]中的資產，這些資產代表二進位檔案以進行其基本作業。 在原生桌面應用程式中開啟檔案時，會依賴作業系統將 PNG 或 JPG 等特定檔案類型關聯至 Mac Preview 或 Adobe Photoshop 等特定應用程式的設定。
 
 部分檔案類型支援將連結的資產放入二進位檔。 使用案頭應用程式開啟此類二進位檔案時，若資產存在於[!DNL Experience Manager]存放庫中，應用程式會預先下載連結的資產。 目前支援的檔案類型包括：
 
@@ -107,7 +122,9 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 ## 新功能、增強功能和錯誤修正 {#what-is-new}
 
-如需詳細資訊，請參閱[v3.0.2](introduction.md#whats-new-v2)的新增功能。
+### 應用程式v3.0.2中的更新 {#app-version-3.0.2}
+
+此案頭應用程式3.0.2版包含錯誤修正，以增強應用程式的整體穩定性和效能。
 
 ### 應用程式v3.0.1中的更新 {#app-version-3.0.1}
 
@@ -295,13 +312,13 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 * 應用程式可完整控制需要從[!DNL Experience Manager]到完整傳輸資產二進位檔的作業（**開啟**、**編輯**、**上傳變更**&#x200B;和&#x200B;**上傳Assets**）。
 
-   * 如果想要在案頭使用資產，您必須明確地「開啟」、「編輯」或「下載」資產至案頭，並可使用個別檔案、資料夾或多個檔案選取的方式進行上述操作。
+  * 如果想要在案頭使用資產，您必須明確地「開啟」、「編輯」或「下載」資產至案頭，並可使用個別檔案、資料夾或多個檔案選取的方式進行上述操作。
 
-   * 若要將資產的本機變更內容上傳至[!DNL Experience Manager]，您必須個別或透過多重選取方式選取[!UICONTROL Upload Changes]。
+  * 若要將資產的本機變更內容上傳至[!DNL Experience Manager]，您必須個別或透過多重選取方式選取[!UICONTROL Upload Changes]。
 
-   * 應用程式不是將資產同步到案頭與[!DNL Experience Manager]上的「同步使用者端」。
+  * 應用程式不是將資產同步到案頭與[!DNL Experience Manager]上的「同步使用者端」。
 
-   * 應用程式未提供將[!DNL Experience Manager]存放庫對應為虛擬資料夾結構的網路共用。
+  * 應用程式未提供將[!DNL Experience Manager]存放庫對應為虛擬資料夾結構的網路共用。
 
 * 應用程式顯示的資產清單是根據Assets存放庫的狀態。 應用程式不會顯示或管理從本機下載、隨後在本地檔案或快取資料夾中重新命名的檔案。
 
@@ -325,7 +342,7 @@ AEM案頭應用程式2.3.1版及更新版本提供兩個版本的Windows安裝�
 
 * 少數情況下，當上傳的資產變更時，進度列可能無法顯示正確的進度。
 
-* 在您套用、移除篩選器以尋找所有在本機編輯的資產後，應用程式不會將使用者引導至剛開始的搜尋結果或資料夾檢視。 應用程式會顯示 DAM 資料庫的根資料夾。
+* 在您套用、移除篩選器以尋找所有在本機編輯的資產後，應用程式不會將使用者引導至剛開始的搜尋結果或資料夾檢視。 應用程式會顯示數位資產管理存放庫的根資料夾。
 
 * 某些時候，當您連線至未執行[!DNL Experience Manager]伺服器的URL時，連線畫面會停止回應。 請退出應用程式並重新啟動。
 
