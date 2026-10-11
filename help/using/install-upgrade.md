@@ -1,26 +1,34 @@
 ---
 title: 安裝及設定案頭應用程式
-description: 安裝並設定 [!DNL Adobe Experience Manager] 案頭應用程式以使用 [!DNL Adobe Experience Manager Assets] 伺服器，並在您的本機檔案系統上下載資產。
+description: 安裝並設定[!DNL Adobe Experience Manager]案頭應用程式以搭配[!DNL Adobe Experience Manager Assets]伺服器使用，並在您的本機檔案系統上下載資產。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+TQID: 'https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 0%
-
+source-wordcount: '1546'
+ht-degree: 1%
 ---
-
 # 安裝[!DNL Adobe Experience Manager]案頭應用程式 {#install-app-v2}
 
 使用[!DNL Adobe Experience Manager]案頭應用程式，[!DNL Experience Manager]內的資產可輕易地在本機案頭上取得，並可用於任何原生案頭應用程式。 您可以在案頭應用程式中預覽和開啟Assets。 它們可在Finder或Explorer中顯示以用於檔案，並在本機編輯。 變更會儲存回[!DNL Experience Manager]，並在上傳時建立新版本。

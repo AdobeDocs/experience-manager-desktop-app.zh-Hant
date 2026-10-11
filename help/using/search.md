@@ -1,24 +1,33 @@
 ---
 title: 在[!DNL Experience Manager]案頭應用程式中瀏覽、搜尋及預覽資產
-description: 在 [!DNL Adobe Experience Manager] 案頭應用程式中瀏覽、搜尋及預覽資產。
+description: 在[!DNL Adobe Experience Manager]案頭應用程式中瀏覽、搜尋及預覽資產。
 feature: Desktop App
 exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
-TQID: https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE
+TQID: 'https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '929'
 ht-degree: 1%
-
 ---
-
 # 瀏覽、搜尋和預覽資產 {#browse-search-preview-assets}
 
 您可以瀏覽至、搜尋及預覽[!DNL Experience Manager]存放庫中的可用資產，所有這一切都是從案頭應用程式中進行。 在應用程式中嘗試下列操作：
@@ -102,7 +111,7 @@ ht-degree: 1%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 

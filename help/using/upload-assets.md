@@ -1,22 +1,32 @@
 ---
-title: 使用 [!DNL Experience Manager] 案頭應用程式上傳資產
-description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式上傳資產。
+title: 使用[!DNL Experience Manager]案頭應用程式上傳資產
+description: 使用[!DNL Adobe Experience Manager]案頭應用程式上傳資產。
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-TQID: https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ
+TQID: 'https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: '843'
 ht-degree: 2%
-
 ---
-
 # 上傳資產 {#upload-assets}
 
 有權新增資產的AEM案頭應用程式使用者可以新增資產（例如影像、檔案、影片或其他媒體）。
@@ -82,7 +92,7 @@ ht-degree: 2%
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
