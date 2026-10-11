@@ -1,26 +1,34 @@
 ---
 title: 安裝及設定案頭應用程式
-description: 安裝並設定 [!DNL Adobe Experience Manager] 案頭應用程式以使用 [!DNL Adobe Experience Manager Assets] 伺服器，並在您的本機檔案系統上下載資產。
+description: 安裝並設定[!DNL Adobe Experience Manager]案頭應用程式以搭配[!DNL Adobe Experience Manager Assets]伺服器使用，並在您的本機檔案系統上下載資產。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+TQID: 'https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1530
-ht-degree: 0%
-
+source-wordcount: '1546'
+ht-degree: 1%
 ---
-
 # 安裝[!DNL Adobe Experience Manager]案頭應用程式 {#install-app-v2}
 
 使用[!DNL Adobe Experience Manager]案頭應用程式，[!DNL Experience Manager]內的資產可輕易地在本機案頭上取得，並可用於任何原生案頭應用程式。 您可以在案頭應用程式中預覽和開啟Assets。 它們可在Finder或Explorer中顯示以用於檔案，並在本機編輯。 變更會儲存回[!DNL Experience Manager]，並在上傳時建立新版本。
@@ -71,7 +79,7 @@ ht-degree: 0%
 
 1. 如果您要從其他版本的應用程式升級，請參閱[升級案頭應用程式](#upgrade-from-previous-version)。
 
-1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
+1. 如果您使用[!DNL Experience Manager]做為[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更新版本，或[!DNL Experience Manager] 6.5.0或更新版本，請略過此步驟。 確定您的[!DNL Experience Manager]安裝程式符合[發行說明](release-notes.md)中提及的相容性需求。 如有必要，請下載適用的[相容性套件](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，並以[!DNL Experience Manager]管理員身分使用[!DNL Experience Manager]套件管理員進行安裝。 若要安裝封裝，請參閱[如何使用封裝](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
 
 1. 執行安裝程式二進位檔，並依照熒幕上的指示進行安裝。
 
@@ -103,7 +111,7 @@ ht-degree: 0%
 
    *圖：應用程式在登入後顯示DAM內容*
 
-1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
+1. （[!DNL Experience Manager] 6.5.1或更新版本）如果您使用案頭應用程式搭配[!DNL Experience Manager] 6.5.1或更新版本，請將S3或Azure聯結器升級至1.10.4或更新版本。 請參閱[Azure聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3聯結器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
 
    如果您是Adobe Managed Services (AMS)客戶，請聯絡Adobe客戶支援。
 

@@ -1,24 +1,35 @@
 ---
-title: 使用 [!DNL Experience Manager] 案頭應用程式
-description: 使用 [!DNL Adobe Experience Manager] 案頭應用程式，從您的Win或Mac案頭直接使用 [!DNL Adobe Experience Manager] DAM資產，並用於其他應用程式。
+title: 使用[!DNL Experience Manager]案頭應用程式
+description: 使用[!DNL Adobe Experience Manager]案頭應用程式，從您的Win或Mac案頭直接使用[!DNL Adobe Experience Manager]個DAM資產，並用於其他應用程式。
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1441'
 ht-degree: 1%
-
 ---
-
 # [!DNL AEM Desktop App]中的Assets管理任務 {#assets-management-tasks}
 
 資產管理包括組織、維護和最佳化數位資產，以簡化工作流程。 它包含複製和重新命名檔案、釘選或取消釘選資料夾以快速存取，以及檢視各種版面配置中的資產等工作。 這有助於提高效率、簡化資產追蹤，並確保跨平台輕鬆擷取和組織數位資產。
@@ -160,7 +171,7 @@ AEM案頭應用程式可讓您[檢視](#view-collections-desktop-app)、[下載]
 
 若要使用影像資產和InDesign嘗試此工作流程，請遵循下列步驟：
 
-1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/tw/indesign/using/placing-graphics.html)。
+1. 在[!DNL Experience Manager]中保留已放置資產的INDD檔案。 若要瞭解如何建立此類INDD檔案，請參閱[放置圖形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 1. 從案頭應用程式內，**[!UICONTROL Edit]**&#x200B;在[!DNL Experience Manager]中置入資產的INDD檔案。
 1. 應用程式會下載InDesign檔案和連結的資產。 當InDesign開啟檔案時，連結會得到解析、資產會下載，而資產會顯示在InDesign檔案中。
 1. 若要在InDesign檔案中放置新圖形，請對資產使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;動作。 此動作會在本機下載資產，並在Windows檔案總管或Mac Finder中開啟本機網路共用位置。
@@ -169,11 +180,11 @@ AEM案頭應用程式可讓您[檢視](#view-collections-desktop-app)、[下載]
 
 ## 後續步驟 {#next-steps}
 
-* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [觀看開始使用Adobe Experience Manager案頭應用程式的影片](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 使用右側邊欄提供的[!UICONTROL Edit this page] ![編輯頁面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![建立GitHub問題](assets/do-not-localize/github-issue.png)來提供檔案意見回饋
 
-* 連絡[客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=General#support)
+* 連絡[客戶服務](https://experienceleague.adobe.com/?support-solution=General#support)
 
 <!--* Provide product feedback using the [!UICONTROL Feedback] option available on the AEM Desktop App user interface>-->
 
